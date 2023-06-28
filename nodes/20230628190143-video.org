@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       fe1c4400-9e02-46e5-8bd0-de6c203d723d
+:END:
+#+title: video
+#+filetags: :nawanomicon:
+- parent: [[id:e9be16f7-8032-4509-9aa9-7843836eacd9][domain]]
+* VIDEO
+- [[https://arxiv.org/pdf/2210.02399.pdf][Phenaki]]
+  - C-vit its video encoder [[https://arxiv.org/pdf/2103.15691.pdf][Vivit]], and the [[https://github.com/google-research/scenic/tree/main/scenic/projects/vivit][repo]]
+- [[https://arxiv.org/pdf/2110.13903.pdf][NeRV]]: Neural Representations for Videos (nerf video)
+  - https://github.com/haochen-rye/NeRV
+  - https://github.com/haochen-rye/HNeRV
+    - [[https://arxiv.org/abs/2212.12294][FFNeRV]]: Flow-Guided Frame-Wise Neural Representations for Videos
+      - incorporates flow information
+  - [[https://arxiv.org/abs/2303.17228][Streaming]] [[https://github.com/yuzhms/Streaming-Video-Model][Video Model]]
+- [[https://arxiv.org/abs/2303.15893][VIVE3D]]: [[https://afruehstueck.github.io/vive3D/][Viewpoint-Independent]] Video Editing using 3D-Aware GANs
+** OPTICAL FLOW
+- [[https://arxiv.org/abs/2003.12039][RAFT]]: [[https://github.com/princeton-vl/RAFT][Recurrent]] All-Pairs Field Transforms for Optical Flow  (video optical flow)
+  - [[https://twitter.com/_akhaliq/status/1667052177146126336][OmniMotion]]: Tracking Everything Everywhere All at Once (following pixels, optical flow)
+*** DIFFUSION OPTICAL FLOW
+- parent: [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
+- [[https://twitter.com/_akhaliq/status/1665929002668662784][The Surprising]] Effectiveness of Diffusion Models for Optical Flow and Monocular Depth Estimation

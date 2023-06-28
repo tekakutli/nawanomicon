@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       5222388e-ab37-4404-8cc7-9b21299e34c2
+:END:
+#+title: application
+#+filetags: :nawanomicon:
+- [[https://github.com/Vaibhavs10/translate-with-whisper][whisper]] translator fast: https://twitter.com/reach_vb/status/1673363113888948224
+- [[https://arxiv.org/abs/2301.00250][DensePose From WiFi]] three wifis to get pose of human
+- [[https://twitter.com/_akhaliq/status/1671361950679277568][Point-Cloud]] Completion with Pretrained Text-to-image Diffusion Models
+  - from incomplete point cloud to 3d model
+* INFORMATION
+- [[https://twitter.com/NielsRogge/status/1644388959416352783][Pix2Struct]]: text to plot
+- thread summarizer https://labs.kagi.com/ai/sum?url=%3E%3E248633369
+* TEXTURES
+- [[id:40f960f2-ec56-42b4-8cf8-4d152a597db0][nerf_texture]]
+- [[https://twitter.com/_akhaliq/status/1638380868526899202][Text2Room]]: [[https://lukashoel.github.io/text-to-room/][Extracting]] Textured 3D Meshes from 2D Text-to-Image Models (textures)
+* MODELING THINGS
+- [[https://twitter.com/_akhaliq/status/1666643196120637443][ARTIC3D]]: Learning Robust Articulated 3D Shapes from Noisy Web Image Collections
+  - using 2d diffusion as prior
+- [[https://twitter.com/_akhaliq/status/1645257919997394945][Generative Agents]]: Interactive Simulacra of Human Behavior, sims

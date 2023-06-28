@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       58c585b9-a03e-4320-a313-e00e68c4ce7e
+:END:
+#+title: diffusion_video
+#+filetags: :nawanomicon:
+- parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
+- [[https://twitter.com/_akhaliq/status/1664084264349040640][Control4D]]: [[https://huggingface.co/papers/2305.20082][Dynamic]] Portrait Editing by Learning 4D GAN from 2D Diffusion-based Editor <<Control4D>>
+  - 4d gan, 2D diffusion, consistent 4D, ==best one==
+  - change face of video
+  - parent: [[id:8f3bb7b5-1212-458f-97d8-5458ed6ae466][face]]
+* SEMANTICALLY DEFORMED
+- [[https://tuneavideo.github.io/][Tune-A-Video]]: [[https://github.com/showlab/Tune-A-Video][One-Shot]] Tuning of Image Diffusion Models for Text-to-Video Generation
+  - inflated to video
+  - [[https://fate-zero-edit.github.io/][Fate/Zero]]: [[https://github.com/ChenyangQiQi/FateZero][Fusing Attentions]](MIT) for Zero-shot Text-based Video Editing
+    - most fluid one, without training
+    - based on Tune a Video
+  - [[https://yingqinghe.github.io/LVDM/][VideoCrafter]]: [[https://github.com/VideoCrafter/VideoCrafter][A Toolkit]] [[https://github.com/VideoCrafter/VideoCrafter][for Text-to-Video]] Generation and Editing: [[https://twitter.com/jfischoff/status/1643649328723144705/photo/1][deeper meaning]] (has loras and controlnet)
+- https://research.nvidia.com/labs/toronto-ai/VideoLDM/ hd, but still semantically deformed
+- VideoFusion: damo/text-to-video-[[https://modelscope.cn/models/damo/text-to-video-synthesis/files][synthesis]], [[https://www.modelscope.cn/models/damo/cv_diffusion_text-to-image-synthesis_tiny/summary][summary]] [[https://www.modelscope.cn/models/damo/cv_diffusion_text-to-image-synthesis_tiny/summary][tiny]], [[https://arxiv.org/pdf/2303.08320.pdf][paper]]
+  - https://rentry.org/f34hy [[https://huggingface.co/damo-vilab/modelscope-damo-text-to-video-synthesis/commit/ac7fbae73c65a6bbde3814d0198e16bb8e886cef][license change commit]]
+- Latent-Shift: Latent Diffusion with Temporal Shift for Efficient Text-to-Video Generation
+  - https://arxiv.org/abs/2304.08477 https://latent-shift.github.io/
+- [[https://twitter.com/_akhaliq/status/1670219559511420929][VideoComposer]]: Compositional Video Synthesis with Motion Controllability models (temporal consistency)
+- [[https://twitter.com/_akhaliq/status/1668808284575342594][Rerender A]] [[https://twitter.com/_akhaliq/status/1669726589737631745][Video]]: [[https://huggingface.co/spaces/Anonymous-sub/Rerender][Zero-Shot]] Text-Guided Video-to-Video Translation
+  - compatible with existing diffusion, ==best one==
+  - hierarchical cross-frame constraints applied to enforce coherence
+* VIDEO INPUT
+- [[https://arxiv.org/abs/2303.13439][Text2Video-Zero]]: [[https://github.com/Picsart-AI-Research/Text2Video-Zero][Text-to-Image]] [[https://github.com/JiauZhang/Text2Video-Zero][Diffusion Models]] are Zero-Shot Video Generators
+  - DDIM enhanced with motion dynamics, after cross-frame attention to protect identity
+  - [[https://arxiv.org/abs/2303.17599][Zero-Shot Video]] [[https://github.com/baaivision/vid2vid-zero][Editing Using]] Off-The-Shelf Image Diffusion Models (vid2vid zero)
+- [[https://arxiv.org/abs/2303.07945][Edit-A-Video]]: Single Video Editing with Object-Aware Consistency
+- [[https://video-p2p.github.io/][video-p2p]] [[https://arxiv.org/abs/2303.04761][cross]] attention control (more coherance than instruct-pix2pix) (Adobe)
+  - [[https://twitter.com/_akhaliq/status/1669574695232888832][VidEdit]]: Zero-Shot and Spatially Aware Text-Driven Video Editing (temporal smoothness)
+* EXTRA PRIORS
+- [[https://arxiv.org/abs/2303.12346][NUWA-XL]]: Diffusion over Diffusion for eXtremely Long Video Generation
+  - coarse-to-fine process,  iteratively complete the middle frames
+- [[https://arxiv.org/pdf/2304.14404.pdf][MCDiff]]: Motion-Conditioned Diffusion Model for Controllable Video Synthesis
+- [[sparseformer]]
+  - [[https://sites.google.com/view/mebt-cvpr2023][Towards End-to-End]] [[https://arxiv.org/abs/2303.11251][Generative]] Modeling of Long Videos with Memory-Efficient Bidirectional Transformers
+    - autorregresive with patches
+* VIDEO MAKING
+- fantastic creatures [[https://www.reddit.com/r/StableDiffusion/comments/11m6v7i/how_was_this_effect_achieved_with_such/][video]]
+- script cinema inspired: https://xanthius.itch.io/multi-frame-rendering-for-stablediffusion [[https://www.reddit.com/r/StableDiffusion/comments/11mlleh/custom_animation_script_for_automatic1111_in_beta/][reddit]]
+- video fix: https://www.reddit.com/r/StableDiffusion/comments/11f8i0g/t_frame_prediction_with_controlnet/ last frame
+- optical flow background removal: https://www.ccoderun.ca/programming/doxygen/opencv/tutorial_background_subtraction.html
+- grid of frames: https://www.reddit.com/r/StableDiffusion/comments/11yejrj/another_temporal_consistency_experiment_the_real/
+  - https://www.reddit.com/r/StableDiffusion/comments/11zeb17/tips_for_temporal_stability_while_changing_the/

@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       8300ca3c-deff-4147-9c31-b7c54e5780d3
+:END:
+#+title: segmentation
+#+filetags: :nawanomicon:
+- [[https://github.com/vijishmadhavan/ArtLine][ArtLine]]: gan to get artline from image, maybe instead of canny for controlnet?
+- [[https://arxiv.org/abs/2304.03284][SegGPT]]: Segmenting Everything In Context
+  - [[https://github.com/baaivision/Painter][Painter]] & SegGPT Series: Vision Foundation Models from BAAI (radiography components, top of box)
+- [[https://twitter.com/_akhaliq/status/1667053581944455174][Background]] Prompting for Improved Object Depth
+  - learned background prompt, thus focuses in the object
+- object detection and segmentator: https://github.com/facebookresearch/CutLER
+* SAM
+- [[https://twitter.com/_akhaliq/status/1645115958594351106][SAM + DINO]], [[https://github.com/mattyamonaca/PBRemTools][segment]] anything, image region editing
+- [[https://huggingface.co/papers/2306.01567][high quality sam]]
+  - [[https://twitter.com/_akhaliq/status/1666273462766170113][Recognize]] Anything: A Strong Image Tagging Model
+- https://arxiv.org/abs/2304.06718 [[https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once][Segment-Everything-Everywhere-All-At-Once]]
+- [[https://github.com/geekyutao/Inpaint-Anything][inpainting]]
+- [[https://arxiv.org/abs/2306.12156][Fast Segment]] Anything, [[https://github.com/casia-iva-lab/fastsam][40ms per]] image
+- see relationships between them https://github.com/Luodian/RelateAnything
+- segment videos https://github.com/gaomingqi/Track-Anything
+- [[https://twitter.com/_akhaliq/status/1667027179308195843][Matting]] Anything Model (MAM): green screen-ed
+* 3D SEGMENATION
+  - [[https://github.com/Jumpat/SegmentAnythingin3D][Segment]] Anything in 3D with NeRFs (SA3D)
+    - [[https://twitter.com/_akhaliq/status/1665926124487036929][SAM3D]]: Zero-Shot 3D Object Detection via Segment Anything Model
+  - [[https://twitter.com/liuziwei7/status/1651461200956514306][SAD is]] able to perform 3D segmentation (segment out any 3D object) with RGBD inputs
+* DIFFUSION SEGMENATION
+- parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
+- [[https://weichen582.github.io/diffmae.html][Diffusion Models]] [[https://arxiv.org/abs/2304.03283][as Masked]] Autoencoders
+- [[https://jerryxu.net/ODISE/][ODISE]]: Open-Vocabulary [[https://github.com/NVlabs/ODISE][Panoptic]] Segmentation with Text-to-Image Diffusion Models.
+- [[https://twitter.com/_akhaliq/status/1669588008117338113][Diffusion Models]] for Zero-Shot Open-Vocabulary Segmentation (considers the contextual background)

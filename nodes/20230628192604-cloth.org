@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       40d40076-e455-4c1c-b3fe-5ed3b6804e5c
+:END:
+#+title: cloth
+#+filetags: :nawanomicon:
+- parent: [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]] [[id:5222388e-ab37-4404-8cc7-9b21299e34c2][application]]
+- [[https://arxiv.org/pdf/2305.11870][Chupa]]: Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models
+  - clothes mesh diffusion using text generation
+- [[https://twitter.com/_akhaliq/status/1669578320650838016][TryOnDiffusion]]: A Tale of Two UNets (dress one with clothes from another, pose-body change)
+- [[https://github.com/johannakarras/DreamPose][DreamPose]]: Fashion Image-to-Video Synthesis via Stable Diffusion

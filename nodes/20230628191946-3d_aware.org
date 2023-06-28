@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       80a07296-1f7a-4b83-a7f4-4f5054cddfc8
+:END:
+#+title: 3d_aware
+#+filetags: :nawanomicon:
+- parent: [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
+- [[https://github.com/KU-CVLAB/3DFuse][Let 2D Diffusion]] Model Know 3D-Consistency for Robust Text-to-3D Generation
+- [[https://jeffreyxiang.github.io/ivid/][3D-aware]] [[https://arxiv.org/abs/2303.17905][Image Generation]] using 2D Diffusion Models

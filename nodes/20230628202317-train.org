@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       cb192d74-71e5-40c3-8763-6f68ffde8e27
+:END:
+#+title: train
+#+filetags: :nawanomicon:

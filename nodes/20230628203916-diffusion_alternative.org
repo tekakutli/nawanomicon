@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       f9437b93-c5a5-4cbb-8a66-51556df3d313
+:END:
+#+title: diffusion_alternative
+#+filetags: :nawanomicon:
+- parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
+- [[https://arxiv.org/pdf/2301.00704.pdf][Muse]]: diffusion alternative, Masked Generative Transformers, T5 text discrete tokens
+  - super-resolution
+- karlo,  https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/6585
+  - https://github.com/Stability-AI/stablediffusion/blob/main/doc/UNCLIP.MD stable karlo
+- [[https://arxiv.org/abs/2212.09748][transformers instead]] of unet, [[https://github.com/facebookresearch/DiT][DiT]]
+- [[https://arxiv.org/pdf/2303.00750.pdf][StraIT]]: Non-autoregressive Generation with Stratified Image Transformer
+- DeepFloyd is a StableDiffusion style image model that more or less replaced CLIP with a full LLM, more like Google's Imagen model.
+  - it's a cascaded diffusion model conditioned on the T5 encoder
+* STILL DIFFUSION
+- Consistency Models: [[https://arxiv.org/pdf/2303.01469.pdf][consistency distillation]]  vs [[https://github.com/openai/consistency_models][progressive]] [[https://github.com/cloneofsimo/consistency_models][distillation]]
+- [[https://arxiv.org/abs/2302.09778][Composer]]: better impainting, training independently semantic components
+- [[https://arxiv.org/abs/2303.13714][High Fidelity]] Image Synthesis With Deep VAEs In Latent Space
+  - hierarchical variational autoencoders (VAEs)
+- [[https://github.com/ai-forever/Kandinsky-2][Kandinsky 2]]: image fusion, inpainting, open source apache
+  - (uses XLM-Roberta-LARGE an LLM)
+  - BERT, but uses a byte-level BPE as a tokenizer
+- [[https://arxiv.org/pdf/2304.04820.pdf][Binary Latent]] Diffusion; binary latent space, binary latent diffusion model; 1/3 of LDM parameters
+  - they tie the "probability" of discrete representation to the probability of the dataset: Variational Inference itself
+- [[https://huggingface.co/papers/2305.18295][RAPHAEL]]: [[https://raphael-painter.github.io/][Text-to-Image]] Generation via Large Mixture of Diffusion Paths
+  - mixture-of-experts (MoEs) layers, encompassing multiple nouns, adjectives, and verbs
+  - trained on 1000 gpus for 2 months
+- [[https://twitter.com/_akhaliq/status/1664505785076908032][SnapFusion]]: [[https://huggingface.co/papers/2306.00980][Text-to-Image]] Diffusion Model on Mobile Devices within Two Seconds
+  - mobile devices = 2 seconds, reducing the computation of the image decoder via data distillation
+* GAN
+- [[https://mingukkang.github.io/GigaGAN/][GigaGAN]]: adobe [[https://github.com/lucidrains/gigagan-pytorch][implementation]]
+  - [[https://www.youtube.com/watch?v=qnHbGXmGJCM][StyleGAN-T]]: nvidia
+- ==DragGAN==: [[https://huggingface.co/papers/2305.10973][Drag Your]] [[https://github.com/Zeqiang-Lai/DragGAN][GAN]]: Interactive Point-based Manipulation on the Generative Image Manifold
+  - dragging as input primitive, using pairs of points, excellent results, stylegan derivative
+  - [[https://twitter.com/_akhaliq/status/1673570232429051906][DragDiffusion]]: Harnessing Diffusion Models for Interactive Point-based Image Editing
+- [[https://twitter.com/_akhaliq/status/1666633498558361600][Designing]] a Better Asymmetric VQGAN for StableDiffusion <<better vqgan>>
+  - only need to retrain a new asymmetric decoder for vanilla sd; better text

@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       d4eebb0c-b7d1-4f56-baf5-004fc69fbd6c
+:END:
+#+title: transformer
+#+filetags: :nawanomicon:
+- parent: [[id:cb192d74-71e5-40c3-8763-6f68ffde8e27][train]]
+- Star-Transformer: https://arxiv.org/abs/1902.09113
+  - [[https://github.com/HazyResearch/safari][Hungry Hungry Hippos]]: State Space Models
+    - next: [[https://arxiv.org/pdf/2302.10866.pdf][Hyena Hierarchy]]: gating (cache-d attention) Towards Larger Convolutional Language Models
+- contextual transformers (Algorithm Distillation), learns from itself, reinforcement learning
+  https://twitter.com/MishaLaskin/status/1585265436723236864
+- [[https://arxiv.org/abs/2303.09752][CoLT5]]: Faster Long-Range Transformers with Conditional Computation
+  - [[https://twitter.com/papers_daily/status/1637748540653936641][strong gains]] up to 64k input length
+- [[https://twitter.com/_akhaliq/status/1664497650702471169][Bytes Are All You Need]]: [[https://huggingface.co/papers/2306.00238][Transformers]] Operating Directly On File Bytes
+- [[https://twitter.com/cloneofsimo/status/1664365355266105344][NoPE]]: dont use positional encoding (PE) in Transformer decoders (GPTs)
+* ABOUT ATTENTION
+- [[https://medium.com/@b.terryjack/deep-learning-the-transformer-9ae5e9c5a190][What]] is Q,V,K? multihead attention?
+- attention free:
+  - [[https://arxiv.org/pdf/2111.15588.pdf][SimpleTRON]]: Simple Transformer with O(N) Complexity (no transformer)
+    - vs [[https://arxiv.org/abs/2111.11418][Metaformer]] (poolformer, pureformer)
+    - maybe not the same: [[https://github.com/ThilinaRajapakse/simpletransformers][the github]]
+- SpectFormer: Frequency and Attention is what you need in a Vision Transformer
+- [[https://arxiv.org/pdf/1808.03867.pdf][Pervasive]] [[https://github.com/elbayadm/attn2d][Attention]]: 2D Convolutional Neural Networks for Sequence-to-Sequence Prediction
+  - two-dimensional convolutions to jointly encode the source-target sequences (translation)
+* TRANSFORMER VISION
+- parent: [[id:39d30d24-c374-4d0c-8037-b03ecbf983fa][computer_vision]]
+- [[https://twitter.com/_akhaliq/status/1645278535878049792][SparseFormer]]: Sparse Visual Recognition via Limited Latent Tokens  <<sparseformer>>
+  - codebook for videos tokens, not optical flow, 49 tokens
+- DINO: self-suppervised Vision Transformers https://youtu.be/h3ij3F3cPIk
+- [[https://twitter.com/_akhaliq/status/1645603021248778241][Slide-Transformer]]: Hierarchical Vision Transformer with Local Self-Attention
+- [[https://twitter.com/_akhaliq/status/1668459325805699073][FasterViT]]: Fast Vision Transformers with Hierarchical Attention

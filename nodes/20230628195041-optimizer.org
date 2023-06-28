@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       0ed48203-4ecd-4357-bbf3-77b9f50e4374
+:END:
+#+title: optimizer
+#+filetags: :nawanomicon:
+- parent: [[id:cb192d74-71e5-40c3-8763-6f68ffde8e27][train]]
+- [[https://twitter.com/DrJimFan/status/1625920782332489729][Lion]]: better than Adam, optimizer
+- [[https://arxiv.org/abs/2302.03764][Sketchy]]: [[https://twitter.com/FeinbergVlad/status/1623540032832413696][Memory-efficient]] Adaptive Regularization with Frequent Directions
+  - Kronecker-factored diagonal eigenvalues, Frequent Directions

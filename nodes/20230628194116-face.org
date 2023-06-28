@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       8f3bb7b5-1212-458f-97d8-5458ed6ae466
+:END:
+#+title: face
+#+filetags: :nawanomicon:
+- [[https://arxiv.org/pdf/2305.04469.pdf][HACK]]: Learning a Parametric Head and Neck Model for High-fidelity Animation
+- [[https://arxiv.org/pdf/2305.07514.pdf][BlendFields]]: Few-Shot Example-Driven Facial Modeling
+- [[https://huggingface.co/papers/2305.19245][AlteredAvatar]]: Stylizing Dynamic 3D Avatars with Fast Style Adaptation
+- [[Control4D]] face-style swap, ==best one==
+* FACE DIFFUSION
+- parent: [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
+- [[https://arxiv.org/abs/2305.06077][Relightify]]: Relightable 3D Faces from a Single Image via Diffusion Models
+  - create from photo a set of textures(BRDF) to generate realistic 3d face

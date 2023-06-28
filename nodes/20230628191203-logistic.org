@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       5274c3ad-4ade-44d0-ab29-1145a0fbfeee
+:END:
+#+title: logistic
+#+filetags: :nawanomicon:
+- parent: [[id:5222388e-ab37-4404-8cc7-9b21299e34c2][application]]
+- [[https://diffusion-planning.github.io/][Planning with]] [[https://arxiv.org/abs/2205.09991][Diffusion for]] [[https://twitter.com/neurosp1ke/status/1530525256871444480][Flexible Behavior]] Synthesis
+  - [[https://huggingface.co/papers/2305.19472][PlaSma]]: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning
+    - LLM, revision of a plan to cope with a counterfactual situation
+- [[https://huggingface.co/papers/2306.00148][SafeDiffuser]]: [[https://safediffuser.github.io/safediffuser/][Safe]] Planning with Diffusion Probabilistic Models
+* ECONOMY
+- [[https://arxiv.org/pdf/2303.17564.pdf][BloombergGPT]]: A Large Language Model for Finance (economy)
+* SCENE
+- [[https://scenediffuser.github.io/][Diffusion-based Generation]], [[https://arxiv.org/abs/2301.06015][Optimization, and]] Planning in 3D Scenes
+- [[https://arxiv.org/abs/2305.11337][RoomDreamer]]: Text-Driven 3D Indoor Scene Synthesis with Coherent Geometry and Texture
+  - using a cubemap, with depth(object plane to screen plane) and distance map
+  - <<roomdreamer>>

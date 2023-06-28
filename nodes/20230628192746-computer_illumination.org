@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       ce14c053-d6bd-467d-84b6-11172ad3a8bc
+:END:
+#+title: computer_illumination
+#+filetags: :nawanomicon:
+- Chrome mapping different from Texture Mapping as the texture changes with a change in the view point
+  - https://web.cs.wpi.edu/~matt/courses/cs563/talks/texture/texture/main.html
+- hdri map: environment map displays a space background
+  - HDRI or Environment textures
+  - godot cubemap, reflection probe
+- BRDF: Bidirectional Reflectance Distribution Function (face texturing)
+  - reflection map, albedo, etc
+- [[https://twitter.com/_akhaliq/status/1669591890931462145/][Neural Relighting]] with Subsurface Scattering by Learning the Radiance Transfer Gradient
+- [[https://arxiv.org/abs/2305.02678][Real-Time Neural]] Appearance Models
+*  NEURAL RADIOSITY
+- ai generated Neural Radiosity: https://www.youtube.com/watch?v=cwS_Fw4u0rM
+  - https://www.cs.umd.edu/~saeedhd/#portfolio/neural_radiosity
+  - https://users.cg.tuwien.ac.at/zsolnai/gfx/gaussian-material-synthesis/
+* NANITE
+- SIGGRAPH 2018: Turing - Mesh Shaders
+  - https://www.youtube.com/watch?v=72lYVTlPfI8
+- Nanite Virtualized Geometry
+  - https://docs.unrealengine.com/5.0/en-US/RenderingFeatures/Nanite/
+- Reduzio - Godot - geometry
+  - https://twitter.com/reduzio/status/1398467641782714371

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       4d3d8e2a-08c3-4624-9389-cd54e06850b9
+:END:
+#+title: motion
+#+filetags: :nawanomicon:
+- parent: [[id:e9be16f7-8032-4509-9aa9-7843836eacd9][domain]]
+- [[https://weiyuli.xyz/GenMM/][GenMM]]: [[https://huggingface.co/papers/2306.00378][Example-based]] Motion Synthesis via Generative Motion Matching
+  - training free, generated in a fraction of a second
+- [[https://arxiv.org/abs/2304.03274][DiffMimic]]: [[https://github.com/jiawei-ren/diffmimic][Efficient]] Motion Mimicking with Differentiable Physics
+- [[https://twitter.com/_akhaliq/status/1665938011068964864][MotionDiffuser]]: Controllable Multi-Agent Motion Prediction using Diffusion (future trajectories over multiple agents)
+* DIFFUSION MOTION
+- parent: [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
+- [[https://arxiv.org/pdf/2304.01116.pdf][ReMoDiffuse]]: [[https://github.com/mingyuan-zhang/ReMoDiffuse][Retrieval-Augmented]] Motion Diffusion Model
+  - semantic augmented database, + previous motion features sequences

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       6844a65f-0acd-4f0b-9911-5a2e6c5a636d
+:END:
+#+title: multidimension
+#+filetags: :nawanomicon:
+- parent: [[id:fd903ca6-5b8e-42f3-adc1-af3ed3dd7d1f][malinali]]
+* PHASE
+- https://github.com/sebastianstarke/AI4Animation/tree/master/AI4Animation/SIGGRAPH_2020/DeepLearning
+  - decompose movement in composable phase skeletons
+- [[https://github.com/sebastianstarke/AI4Animation/blob/master/Media/SIGGRAPH_2022/Paper.pdf][paper]]
+- more details: https://www.ianxmason.com/posts/PAE/
+* DIFFUSION
+- parent: [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
+- [[https://arxiv.org/abs/2302.07400][Score-based Diffusion Models in Function Space]] function diffusion (maybe audio)
+  - [[https://arxiv.org/pdf/2212.00886.pdf][Diffusion Generative]] [[https://github.com/GavinKerrigan/functional_diffusion][Models in Infinite]] Dimensions
+- [[https://arxiv.org/pdf/2305.15586.pdf][Manifold Diffusion]] Fields (from texture context)
