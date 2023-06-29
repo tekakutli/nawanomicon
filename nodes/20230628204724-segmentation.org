@@ -3,6 +3,7 @@
 :END:
 #+title: segmentation
 #+filetags: :nawanomicon:
+- parent: [[id:39d30d24-c374-4d0c-8037-b03ecbf983fa][computer_vision]]
 - [[https://github.com/vijishmadhavan/ArtLine][ArtLine]]: gan to get artline from image, maybe instead of canny for controlnet?
 - [[https://arxiv.org/abs/2304.03284][SegGPT]]: Segmenting Everything In Context
   - [[https://github.com/baaivision/Painter][Painter]] & SegGPT Series: Vision Foundation Models from BAAI (radiography components, top of box)

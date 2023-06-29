@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       cecdfdb8-8bbb-4e61-9c4c-2144a1e79af2
+:END:
+#+title: diffusion_tools
+#+filetags: :nawanomicon:
+to be filled

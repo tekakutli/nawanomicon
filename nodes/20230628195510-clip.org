@@ -3,7 +3,7 @@
 :END:
 #+title: clip
 #+filetags: :nawanomicon:
-- parent: [[id:cb192d74-71e5-40c3-8763-6f68ffde8e27][train]]
+- parent: [[id:39d30d24-c374-4d0c-8037-b03ecbf983fa][computer_vision]]
 - simo take on better clip papers: https://twitter.com/cloneofsimo/status/1666086583005769728
 * PRIOR ALTERNATIVES
 - better clip, nearest neighbor
