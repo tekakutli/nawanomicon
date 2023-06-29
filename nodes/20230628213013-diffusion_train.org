@@ -1,0 +1,75 @@
+:PROPERTIES:
+:ID:       3eb4404b-1adc-4cc1-8e04-661a758c7d47
+:END:
+#+title: diffusion_train
+#+filetags: :nawanomicon:
+- parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]] [[id:cb192d74-71e5-40c3-8763-6f68ffde8e27][train]]
+- [[better vqgan]]
+- 400x (and use vae leafing to make big)
+- [[https://github.com/unum-cloud/uform][uform]]: clip not required, trained in a day
+- 4, 8 bit models, Q-Diffusion https://arxiv.org/pdf/2302.04304.pdf [[https://www.reddit.com/r/StableDiffusion/comments/10yelb5/quantizing_diffusion_models_running_stable/][insight reddit]] quantization
+- cloneofsimo learning from the clip
+  - https://papers.nips.cc/paper/2015/hash/f7f580e11d00a75814d2ded41fe8e8fe-Abstract.html
+    - wanna perform affordable kernel regression on l2-normalized data
+      - Get yourself Spherical Random Features for Polynomial Kernels
+      - relevant if you are aiming for large scale non-parametric regression on CLIP projected feature spaces
+* CHEAPER TRAINING
+- [[better vqgan]]
+- [[https://arxiv.org/abs/2303.09556][Efficient Diffusion]] Training via [[https://arxiv.org/pdf/2303.09556.pdf][Min-SNR]] Weighting Strategy
+  - slow convergence due to conflicting optimization directions between timesteps, 3.4× faster
+- Imagen suggests that scaling the text encoder is much more impactful than scaling the UNet
+  - at least for diffusion models
+- custom $50k stable diffusion training, [[https://www.reddit.com/r/StableDiffusion/comments/130b7fa/comment/jhwmzcv/?utm_source=share&utm_medium=web2x&context=3][reddit post]]
+  - https://www.mosaicml.com/blog/training-stable-diffusion-from-scratch-part-2
+    - https://github.com/mosaicml/diffusion
+- [[https://arxiv.org/abs/2304.12526][Patch]] [[https://twitter.com/davisblalock/status/1656196316412911616][Diffusion]]: Faster and More Data-Efficient Training of Diffusion Models
+- [[https://huggingface.co/spaces/nota-ai/compressed-stable-diffusion][compressed-stable-diffusion]]  36% reduced parameters and latency
+- [[https://huggingface.co/papers/2306.00637][Wuerstchen]]: [[https://twitter.com/dome39931447/status/1664514701118656512][Efficient]] Pretraining of Text-to-Image Models
+  - 16 times faster, only 9200 GPU hours
+* DIFFERENT ARCHITECTURE
+- faster using electric flow-charges
+  https://www.assemblyai.com/blog/an-introduction-to-poisson-flow-generative-models/
+  - better than inference: https://twitter.com/_akhaliq/status/1620958983639924736 https://arxiv.org/pdf/2302.00482.pdf
+- [[https://arxiv.org/pdf/2211.17106.pdf][Spectral Diffusion]]: slim Standard Diffusion, 20 times smaller in size
+  - [[https://www.researchgate.net/publication/365850345_Wavelet_Diffusion_Models_are_fast_and_scalable_Image_Generators][Wavelet diffusion]] [[https://github.com/VinAIResearch/WaveDiff][code]]
+    - [[https://arxiv.org/abs/2211.16152][Wavelet Diffusion]] [[https://github.com/VinAIResearch/WaveDiff][Models are]] fast and scalable Image Generators
+- [[https://arxiv.org/abs/2304.11751][Score-Based]] Diffusion Models as Principled Priors for Inverse Imaging (more complex priors)
+* DATASET MANIPULATION
+- [[https://arxiv.org/abs/2211.15388][Shifted Diffusion]] ==Corgi== for Text-to-image Generation: from clip straight to diffusion, ==only 1.7 of the images required captions==
+- Object Detection: [[https://github.com/facebookresearch/CutLER][CutLER]]
+- [[https://arxiv.org/abs/2211.10370][D3S]]: Invariant Learning via Diffusion Dreamed Distribution Shifts, separating foreground-background
+  - disentangling foreground from background by chopping-pasting them out in the synthetic training dataset
+  - like SVDiff
+- [[https://arxiv.org/pdf/2303.11114.pdf][SeiT]]: [[https://github.com/naver-ai/seit][Storage-efficient]] Vision Training: <1% of the original JPEG-compressed images
+  - Token-based Storage
+** ATLAS
+- [[Neural Congealing: Aligning Images to a Joint Semantic Atlas][Neural Congealing]]: [[https://neural-congealing.github.io/][Aligning Images]] to a Joint Semantic Atlas <<semantic atlas>>
+  - zeroshot leaning concept-shapes
+  - [[https://arxiv.org/abs/2303.16201][ASIC]]: [[https://kampta.github.io/asic/][Aligning Sparse]] in-the-wild Image Collections
+  - [[sematic correspondance]]
+    - [[diffusion features]]
+- [[https://www.cs.cmu.edu/~concept-ablation/][Ablating Concepts]] [[https://github.com/nupurkmr9/concept-ablation][in]] Text-to-Image Diffusion Models (adobe)
+** MASKS
+- masking to accelerate learning [[https://github.com/microsoft/VQ-Diffusion][VQ-Diffusion]] https://arxiv.org/pdf/2111.14822.pdf
+- [[https://arxiv.org/abs/2303.08817][DeepMIM]]: [[https://github.com/OliverRensu/DeepMIM][Deep Supervision]] for Masked Image Modeling
+  - pre-trains a Vision Transformer (ViT) via a mask-and-predict scheme.
+- [[https://github.com/sail-sg/MDT][MDT]]: [[https://twitter.com/_akhaliq/status/1640007265762811904][Masked]] [[https://github.com/sail-sg/MDT][Diffusion]] Transformer (3 times faster)
+* TECHNICAL
+- [[https://arxiv.org/pdf/2210.05475.pdf][GENIE]]: Higher-Order Denoising Diffusion Solvers
+  - faster diffusion ecuation?
+  - DDIM vs GENIE
+  - 4 time less expensive upsampling
+- [[https://arxiv.org/pdf/2210.05475.pdf][GIT RE-BASIN]]: MERGING MODELS MODULO PERMUTATION SYMMETRIES
+- [[https://arxiv.org/pdf/2303.10512.pdf][AdaLoRA]] adaptively allocates the parameter budget among weight matrices according to their importance (adaptive lora)
+* MATHEMATICAL
+I have recently written a paper on understanding transformer learning via the lens of coinduction & Hopf algebra. https://arxiv.org/abs/2302.01834
+
+The learning mechanism of transformer models was poorly understood however it turns out that a transformer is like a circuit with a feedback.
+
+I argue that autodiff can be replaced with what I call in the paper Hopf coherence which happens within the single layer as opposed to across the whole graph.
+
+Furthermore, if we view transformers as Hopf algebras, one can bring convolutional models, diffusion models and transformers under a single umbrella.
+
+I'm working on a next gen Hopf algebra based machine learning framework.
+
+Join my discord if you want to discuss this further https://discord.gg/mr9TAhpyBW

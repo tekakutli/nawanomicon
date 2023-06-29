@@ -4,3 +4,9 @@
 #+title: diffusion_tools
 #+filetags: :nawanomicon:
 to be filled
+
+https://github.com/comfyanonymous/ComfyUI
+https://github.com/rvion/CushyStudio
+
+
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
