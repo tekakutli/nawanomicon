@@ -3,10 +3,10 @@
 :END:
 #+title: diffusion_tools
 #+filetags: :nawanomicon:
-to be filled
+- parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
+- to be filled
 
 https://github.com/comfyanonymous/ComfyUI
 https://github.com/rvion/CushyStudio
-
 
 https://github.com/AUTOMATIC1111/stable-diffusion-webui

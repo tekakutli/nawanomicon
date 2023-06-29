@@ -36,6 +36,8 @@
 - [[https://mjenrungrot.github.io/chrome-media-audio-papers/publications/lmcodec/][LMCodec]]: A Low Bitrate Speech Codec With Causal Transformer Models
   - [[https://ai.googleblog.com/2021/08/soundstream-end-to-end-neural-audio.html][Soundstream]] [[https://google-research.github.io/seanet/soundstream/examples/][encoder]] [[https://github.com/wesbz/SoundStream][implementation]]
 - [[https://youtu.be/lX0S0ZdWdDw][MusicGen]]: vs google musiclm, inteweaving of discrete sound tokens conditioned on text input
+- [[https://twitter.com/_akhaliq/status/1674254559428968448][Accelerating]] Transducers through Adjacent Token Merging
+  - reduce 57% of tokens, improve speed by 70%
 * VOICE CONVERSION
 - [[https://arxiv.org/abs/2302.08137][Speech]] [[https://paarthneekhara.github.io/ace/code.html][Representation]] Extractor: divide in parts, voice, pitch, context; zero shot [[https://github.com/NVIDIA/NeMo][Nvidia]]
 - [[https://qicongxie.github.io/end2endvc/][end2endvc]]: [[https://arxiv.org/pdf/2206.07569.pdf][End-to-End Voice]] Conversion with Information Perturbation (==better mos than nvc==) (better MOS than freevc)

@@ -257,6 +257,8 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - using NULL-SPACE
   - https://github.com/wyhuai/DDNM
   - unlitmited superresolution https://arxiv.org/pdf/2303.00354.pdf
+- [[https://twitter.com/_akhaliq/status/1674249594421608448][SVNR]]: Spatially-variant Noise Removal with Denoising Diffusion
+  - real life noise fixing
 ** DEPTH GENERATION
 - [[https://twitter.com/_akhaliq/status/1630747135909015552][depth map]] from diffusion, build 3d enviroment with it
   - [[https://github.com/wl-zhao/VPD][VPD]]: using diffusion for depth estimation, image segmentation (better) <<vpd>> comparable [[x-decoder]]

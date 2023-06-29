@@ -12,6 +12,8 @@
   - [[https://diffusion-classifier.github.io/][Your Diffusion]] [[https://arxiv.org/abs/2303.16203][Model is]] Secretly a Zero-Shot Classifier
 - [[https://twitter.com/_akhaliq/status/1668828834181836800][GeneCIS]]: A Benchmark for General Conditional Image Similarity
   - models, should adapt to notion of similarity dynamically
+- [[https://twitter.com/_akhaliq/status/1674237851536334849][Towards Language]] Models That Can See: Computer Vision Through the LENS of Natural Language
+  - reasoning over independent vision modules
 * AUDIO VISION
 - Clamp: clip for music https://github.com/microsoft/muzic/tree/main/clamp
   - CLAP (Contrastive Language-Audio Pretraining): https://huggingface.co/docs/transformers/model_doc/clap
