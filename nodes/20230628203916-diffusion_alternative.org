@@ -12,7 +12,7 @@
 - [[https://arxiv.org/pdf/2303.00750.pdf][StraIT]]: Non-autoregressive Generation with Stratified Image Transformer
 - DeepFloyd is a StableDiffusion style image model that more or less replaced CLIP with a full LLM, more like Google's Imagen model.
   - it's a cascaded diffusion model conditioned on the T5 encoder
-- Inversion by Direct Iteration: An Alternative to Denoising Diffusion for Image Restoration
+- [[https://twitter.com/_akhaliq/status/1674280829382541312][Inversion]] by Direct Iteration: An Alternative to Denoising Diffusion for Image Restoration
   - iterative restoration from low-quality and high-quality paired examples
 * STILL DIFFUSION
 - Consistency Models: [[https://arxiv.org/pdf/2303.01469.pdf][consistency distillation]]  vs [[https://github.com/openai/consistency_models][progressive]] [[https://github.com/cloneofsimo/consistency_models][distillation]]

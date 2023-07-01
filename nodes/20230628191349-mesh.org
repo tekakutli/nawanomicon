@@ -6,6 +6,10 @@
 - parent: [[id:5222388e-ab37-4404-8cc7-9b21299e34c2][application]]
 - [[https://scene-dreamer.github.io/][SceneDreamer]]: [[https://github.com/FrozenBurning/SceneDreamer][Unbounded]] 3D Scene Generation from 2D Image Collections (landscapes, scenarios)
 - [[https://github.com/cvlab-columbia/zero123][Zero-1-to-3]]: Zero-shot One Image to 3D Object: https://zero123.cs.columbia.edu/
+- [[https://twitter.com/_akhaliq/status/1674617785119305728][One-2-3-45]]: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization
+  - use sdf to force consistency of diffusion generation
+- [[https://twitter.com/_akhaliq/status/1674618752917295105][Michelangelo]]: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation
+  - image + text + shape prior = mesh
 * MESH DIFFUSION
 - [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
 - [[https://twitter.com/_akhaliq/status/1641241817269108736][HOLODIFFUSION]]: Training a 3D Diffusion Model using 2D Images

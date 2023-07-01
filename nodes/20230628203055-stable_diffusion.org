@@ -41,6 +41,8 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
    - [[https://arxiv.org/pdf/2304.14573.pdf][SceneGenie]]: Scene Graph Guided Diffusion Models for Image Synthesis
  - [[https://twitter.com/_akhaliq/status/1673539960664911874][Zero-shot]] spatial layout conditioning for text-to-image diffusion models
    - implicit segmentation maps can be extracted from cross-attention layers
+ - [[https://twitter.com/_akhaliq/status/1674623306551508993][Generate Anything]] Anywhere in Any Scene <<layout aware>>
+   - training guides to focus on object identity, personalized concept with localization controllability
 ** ONE IMAGE GUIDED
 - Imagic
 - pfg Prompt free generation: https://github.com/laksjdjf/pfg
@@ -164,6 +166,7 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - one facial photograph, 1024 learnable parameters, 3 minutes; several at once
 - [[https://twitter.com/_akhaliq/status/1668450247385796609][Controlling]] [[https://github.com/Zeju1997/oft][Text-to-Image]] Diffusion by Orthogonal Finetuning
   - preserves the hyperspherical energy of the pairwise neuron relationship, semantic coherance
+- [[layout aware]]
 *** CONES
 - [[https://arxiv.org/abs/2303.05125][Cones]]: [[https://github.com/Johanan528/Cones][Concept Neurons]] [[https://github.com/damo-vilab/Cones][in Diffusion]] Models for Customized Generation (better than Custom Diffusion)
   - index only the locations in the layers that give rise to a subject, add them together to include multiple subjects in a new context

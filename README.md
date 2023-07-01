@@ -8,6 +8,9 @@ Terminal:
 cd ~/org/roam
 git clone https://github.com/tekakutli/nawanomicon
 ```
+
+The most useful node would be ~/org/roam/nawanomicon/nodes/20230628203055-stable_diffusion.org  
+To create templates for this directory I have a template.
 config.el
 ```
 (setq org-roam-capture-templates

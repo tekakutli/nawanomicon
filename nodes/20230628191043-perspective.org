@@ -11,6 +11,7 @@
 - [[https://jasonqsy.github.io/3DOI/][Understanding]] 3D Object Interaction from a Single Image
 - [[https://twitter.com/_akhaliq/status/1673879084760440833][PoseDiffusion]]: Solving Pose Estimation via Diffusion-aided Bundle Adjustment
   - modelling the distribution of camera poses given input images
+  - [[https://twitter.com/rsasaki0109/status/1674362772388458497][Detector-Free]] Structure from Motion
 * NERF ALTERNATIVE
 - parent: [[id:f5d2ef09-1412-4955-a3c5-c22f6fff8d11][nerf]]
 - ==nerf alternative== [[roomdreamer]]
