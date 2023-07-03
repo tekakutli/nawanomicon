@@ -4,9 +4,23 @@
 #+title: diffusion_tools
 #+filetags: :nawanomicon:
 - parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
-- to be filled
-
+* UIs
 https://github.com/comfyanonymous/ComfyUI
-https://github.com/rvion/CushyStudio
-
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
+* COMFY
+** CUSHY
+- programmatic pipelines using typescript
+- https://github.com/rvion/CushyStudio
+** COMFY NODES
+*** IMPACT PACK
+- inpainting
+- masking
+- sam
+- https://github.com/ltdrdata/ComfyUI-Impact-Pack
+*** WAS PLUGIN LIST
+- https://github.com/WASasquatch/comfyui-plugins/
+*** AUTO1111 TOKENS ON COMFY
+A1111's token normalization and weighting in ComfyU
+This means you can reproduce the same images generated on stable-diffusion-webui on ComfyUI.
+**** LINK
+https://github.com/shiimizu/ComfyUI_smZNodes

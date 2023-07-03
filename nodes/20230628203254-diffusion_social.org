@@ -4,6 +4,9 @@
 #+title: diffusion_social
 #+filetags: :nawanomicon:
 - parents: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
+* ART POSTING
+- https://lemmy.dbzer0.com/c/stable_diffusion_art
+* OTHERS
 - stable diffusion news: https://rentry.org/niakonichan [[https://rentry.org/niakonichan-news][news]] [[https://www.sdcompendium.com/doku.php?id=start][wiki]]
   - summary of tools: https://note.com/stelsray/n/n4af1a4eaad1b
     - [[https://note.com/stelsray/n/n1b1f12e17c5d][charturner]]
