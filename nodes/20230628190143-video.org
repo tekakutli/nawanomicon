@@ -15,6 +15,9 @@
   - [[https://arxiv.org/abs/2303.17228][Streaming]] [[https://github.com/yuzhms/Streaming-Video-Model][Video Model]]
 - [[https://arxiv.org/abs/2303.15893][VIVE3D]]: [[https://afruehstueck.github.io/vive3D/][Viewpoint-Independent]] Video Editing using 3D-Aware GANs
 ** OPTICAL FLOW
+:PROPERTIES:
+:ID:       88e29751-d7d6-41e4-8375-3c7ac24cb77b
+:END:
 - [[https://arxiv.org/abs/2003.12039][RAFT]]: [[https://github.com/princeton-vl/RAFT][Recurrent]] All-Pairs Field Transforms for Optical Flow  (video optical flow)
   - [[https://twitter.com/_akhaliq/status/1667052177146126336][OmniMotion]]: Tracking Everything Everywhere All at Once (following pixels, optical flow)
 *** DIFFUSION OPTICAL FLOW

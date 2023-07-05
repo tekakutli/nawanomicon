@@ -7,11 +7,14 @@
 - [[https://nvlabs.github.io/genvs/][GeNVS]]: Generative Novel View Synthesis with 3D-Aware Diffusion Models (1 image to 3d video)
   - [[https://twitter.com/_akhaliq/status/1674079121427554309][MVDiffusion]]: [[https://twitter.com/YasutakaFuruka1/status/1674083798689157120][Enabling]] [[https://mvdiffusion.github.io/][Holistic]] Multi-view Image Generation with Correspondence-Aware Diffusion
     - generate new consistent perspective view
+- [[https://twitter.com/_akhaliq/status/1676070417922916352][MVDiffusion]]: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion, panorama
 * UNDERSTANDING
 - [[https://jasonqsy.github.io/3DOI/][Understanding]] 3D Object Interaction from a Single Image
 - [[https://twitter.com/_akhaliq/status/1673879084760440833][PoseDiffusion]]: Solving Pose Estimation via Diffusion-aided Bundle Adjustment
   - modelling the distribution of camera poses given input images
   - [[https://twitter.com/rsasaki0109/status/1674362772388458497][Detector-Free]] Structure from Motion
+- [[https://twitter.com/_akhaliq/status/1676094652020031488][Real-time]] Monocular Full-body Capture in World Space via Sequential Proxy-to-Motion Learning
+  - body tracking, only one view needed
 * NERF ALTERNATIVE
 - parent: [[id:f5d2ef09-1412-4955-a3c5-c22f6fff8d11][nerf]]
 - ==nerf alternative== [[roomdreamer]]

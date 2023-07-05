@@ -115,7 +115,6 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
 - [[https://github.com/cloneofsimo/magicmix][magicmix]] merge shapes
   - [[https://arxiv.org/abs/2303.16765][MDP]]: [[https://github.com/QianWangX/MDP-Diffusion][A Generalized]] Framework for Text-Guided Image Editing by Manipulating the Diffusion Path
     - <Our manipulations and baselines>
-- [[https://arxiv.org/abs/2211.07825][Direct Inversion]]: Optimization-Free Text-Driven Real Image Editing with Diffusion Models
 - IMAGIC (diffusers)
   - HiPer: [[https://arxiv.org/abs/2303.08767][Highly Personalized]] Text Embedding for Image Manipulation by Stable Diffusion
     - a single image and target text, like accient [[https://github.com/7eu7d7/DreamArtist-sd-webui-extension][DreamArtist]]
@@ -125,12 +124,14 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - imagic: editing photo with prompt: https://github.com/ShivamShrirao/diffusers/tree/main/examples/imagic
   - no fine tuning, using BLIP: https://github.com/pix2pixzero/pix2pix-zero <<pix2pix>>
 - plug-and-[[https://github.com/MichalGeyer/plug-and-play][play]] (like pix2pix but features extracted)
-- [[Self-Guidance]]
 - [[https://twitter.com/_akhaliq/status/1670677370276028416][MagicBrush]]: A Manually Annotated Dataset for Instruction-Guided Image Editing
+- [[Self-Guidance]]
+- [[https://arxiv.org/abs/2211.07825][Direct Inversion]]: Optimization-Free Text-Driven Real Image Editing with Diffusion Models
+  - [[Ledits]]
 ** STYLE
 - [[https://arxiv.org/abs/2303.15649][StyleDiffusion]]: Prompt-Embedding Inversion for Text-Based Editing
   - preserve the object-like attention maps after editing
-- [[https://huggingface.co/papers/2306.00983][StyleDrop]]: [[https://styledrop.github.io/][Text-to-Image]] Generation in Any Style
+- [[https://huggingface.co/papers/2306.00983][StyleDrop]]: [[https://styledrop.github.io/][Text-to-Image]] [[https://github.com/zideliu/StyleDrop-PyTorch][Generation]] in Any Style (muse architecture)
   - 1% of parameters (painting style)
 ** REGIONS
 - different inpainting with diffusers: https://github.com/huggingface/diffusers/pull/1585
@@ -238,14 +239,17 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - [[https://twitter.com/_akhaliq/status/1670190734543134720][Linguistic]] Binding in Diffusion Models: Enhancing Attribute Correspondence through Attention Map Alignment
     - using prompt sentence structure during inference to improve the faithfulness
 - [[https://github.com/hnmr293/sd-webui-cutoff][sd-webui-cutoff]], hide tokens for each separated group, limits the token influence scope (color control)
-- [[https://github.com/ml-research/semantic-image-editing][sega]] semantic guidance <<sega>> like [[EDICT]]
-  - [[https://twitter.com/_akhaliq/status/1664485230151884800][The Hidden]] [[https://huggingface.co/papers/2306.00966][Language]] of Diffusion Models
-    - learning interpretable pseudotokens from interpolating unet concepts
-    - useful for: single-image decomposition to tokens, bias detection, and semantic image manipulation
 - simple, [[https://github.com/weixi-feng/Structured-Diffusion-Guidance][Structured Diffusion Guidance]], clip enforces on U-net
   - https://arxiv.org/abs/2212.05032
   - [[https://weixi-feng.github.io/structure-diffusion-guidance/][Training-Free Structured]] Diffusion Guidance for Compositional [[https://arxiv.org/pdf/2212.05032.pdf][Text-to-Image Synthesis]]
   - exploiting language sentences semantical hierarchies (lojban)
+** SEMANTIC GUIDANCE
+- [[https://github.com/ml-research/semantic-image-editing][sega]] semantic guidance <<sega>> like [[EDICT]]
+  - [[https://twitter.com/_akhaliq/status/1664485230151884800][The Hidden]] [[https://huggingface.co/papers/2306.00966][Language]] of Diffusion Models
+    - learning interpretable pseudotokens from interpolating unet concepts
+    - useful for: single-image decomposition to tokens, bias detection, and semantic image manipulation
+- [[https://twitter.com/_akhaliq/status/1676071757994680321][LEDITS]]: Real Image Editing with DDPM Inversion and Semantic Guidance
+  - prompt changing, minimal variations <<ledits>>
 * USE CASES
 ** DIFFUSING TEXT
 - [[https://ds-fusion.github.io/static/pdf/dsfusion.pdf][DS-Fusion]]: [[https://ds-fusion.github.io/][Artistic]] Typography via Discriminated and Stylized Diffusion (fonts)

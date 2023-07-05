@@ -28,8 +28,11 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui
 - https://github.com/ltdrdata/ComfyUI-Impact-Pack
 *** WAS PLUGIN LIST
 - https://github.com/WASasquatch/comfyui-plugins/
-*** AUTO1111 TOKENS ON COMFY
+*** TEXT ENCODERS
+**** AUTO1111 TOKENS ON COMFY
 A1111's token normalization and weighting in ComfyU
 This means you can reproduce the same images generated on stable-diffusion-webui on ComfyUI.
-**** LINK
+***** LINK
 https://github.com/shiimizu/ComfyUI_smZNodes
+**** ADVANCED TOKEN WEIGHTS
+https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb

@@ -3,6 +3,7 @@
 :END:
 #+title: malinali
 #+filetags: :nawanomicon:
+- [[id:bd80ad1d-64de-4445-98e8-0cec31e1ab32][STATE SPACE]]
 * PHYSICS - CHEMICAL - PARTICLES
 - Complex Physics with Graph Networks https://arxiv.org/pdf/2002.09405
 - [[https://github.com/xuan-li/PAC-NeRF][PAC-NeRF]]: [[https://arxiv.org/abs/2303.05512][Physics]] Augmented Continuum Neural Radiance Fields

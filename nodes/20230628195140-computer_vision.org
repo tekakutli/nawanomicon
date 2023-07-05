@@ -3,8 +3,6 @@
 :END:
 #+title: computer_vision
 #+filetags: :nawanomicon:
-- [[https://github.com/salesforce/LAVIS/tree/main/projects/instructblip][InstructBLIP]]: [[http://arxiv.org/abs/2305.06500][Towards General-purpose]] Vision-Language Models with Instruction Tuning
-  - image understanding
 - with image detector, image tokenizer https://github.com/Vision-CAIR/MiniGPT-4
   - llava: https://llava-vl.github.io/ https://arxiv.org/abs/2304.08485
 - [[https://twitter.com/_akhaliq/status/1665736170100097024][Vocabulary-free]] Image Classification
@@ -14,6 +12,8 @@
   - models, should adapt to notion of similarity dynamically
 - [[https://twitter.com/_akhaliq/status/1674237851536334849][Towards Language]] Models That Can See: Computer Vision Through the LENS of Natural Language
   - reasoning over independent vision modules
+- [[https://github.com/salesforce/LAVIS/tree/main/projects/instructblip][InstructBLIP]]: [[http://arxiv.org/abs/2305.06500][Towards General-purpose]] Vision-Language Models with Instruction Tuning
+  - image understanding
 * AUDIO VISION
 - Clamp: clip for music https://github.com/microsoft/muzic/tree/main/clamp
   - CLAP (Contrastive Language-Audio Pretraining): https://huggingface.co/docs/transformers/model_doc/clap

@@ -4,10 +4,13 @@
 #+title: diffusion_video
 #+filetags: :nawanomicon:
 - parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
+* 4D CONTROL
 - [[https://twitter.com/_akhaliq/status/1664084264349040640][Control4D]]: [[https://huggingface.co/papers/2305.20082][Dynamic]] Portrait Editing by Learning 4D GAN from 2D Diffusion-based Editor <<Control4D>>
   - 4d gan, 2D diffusion, consistent 4D, ==best one==
   - change face of video
   - parent: [[id:8f3bb7b5-1212-458f-97d8-5458ed6ae466][face]]
+- [[https://twitter.com/_akhaliq/status/1676084523006566403][DisCo]]: Disentangled Control for Referring Human Dance Generation in Real World
+  - human dance(movement) images and videos (using skelleton rigs)
 * SEMANTICALLY DEFORMED
 - [[https://tuneavideo.github.io/][Tune-A-Video]]: [[https://github.com/showlab/Tune-A-Video][One-Shot]] Tuning of Image Diffusion Models for Text-to-Video Generation
   - inflated to video

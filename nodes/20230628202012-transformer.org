@@ -13,6 +13,14 @@
   - [[https://twitter.com/papers_daily/status/1637748540653936641][strong gains]] up to 64k input length
 - [[https://twitter.com/_akhaliq/status/1664497650702471169][Bytes Are All You Need]]: [[https://huggingface.co/papers/2306.00238][Transformers]] Operating Directly On File Bytes
 - [[https://twitter.com/cloneofsimo/status/1664365355266105344][NoPE]]: dont use positional encoding (PE) in Transformer decoders (GPTs)
+* ALTERNATIVE
+** STATE SPACE
+:PROPERTIES:
+:ID:       bd80ad1d-64de-4445-98e8-0cec31e1ab32
+:END:
+- [[https://arxiv.org/abs/2212.14052][H3]]: [[https://www.reddit.com/r/MachineLearning/comments/10kdeex/h3_a_new_generative_language_models_that/][hungry hippos]]: state space model instead of transformers
+  - [[https://github.com/BlinkDL/RWKV-LM][RWKV]]: RNN instead of transformers
+  - [[https://arxiv.org/pdf/2202.07765.pdf][Perceiver]] few latents instead of transformers
 * ABOUT ATTENTION
 - [[https://medium.com/@b.terryjack/deep-learning-the-transformer-9ae5e9c5a190][What]] is Q,V,K? multihead attention?
 - attention free:
