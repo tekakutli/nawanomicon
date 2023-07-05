@@ -8,6 +8,15 @@
 https://github.com/comfyanonymous/ComfyUI
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 * COMFY
+** ONLINE SERVICES
+- https://www.civitai.com/
+  - main registry of loras
+- https://www.stablehorde.net
+  - distributed cluster, built on top of ComfyUI, you can use any lora on CivitAI
+  - https://dbzer0.com/blog/state-of-the-ai-horde-july-2023/
+  - clients: Lucid Creations, ArtBot
+    - https://github.com/daveschumaker/artbot-for-stable-diffusion/
+    - krita plugin: https://github.com/dunkeroni/krita-stable-horde
 ** CUSHY
 - programmatic pipelines using typescript
 - https://github.com/rvion/CushyStudio

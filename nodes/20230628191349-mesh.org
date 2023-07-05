@@ -10,7 +10,7 @@
   - use sdf to force consistency of diffusion generation
 - [[https://twitter.com/_akhaliq/status/1674618752917295105][Michelangelo]]: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation
   - image + text + shape prior = mesh
-- Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors ==best==
+- [[https://twitter.com/_akhaliq/status/1675684794653351936][Magic123]]: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors ==best==
   - for both stages; first stage coarse geometry first then details
 * MESH DIFFUSION
 - [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
