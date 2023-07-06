@@ -32,8 +32,13 @@
 * GAN
 - [[https://mingukkang.github.io/GigaGAN/][GigaGAN]]: adobe [[https://github.com/lucidrains/gigagan-pytorch][implementation]]
   - [[https://www.youtube.com/watch?v=qnHbGXmGJCM][StyleGAN-T]]: nvidia
-- ==DragGAN==: [[https://huggingface.co/papers/2305.10973][Drag Your]] [[https://github.com/Zeqiang-Lai/DragGAN][GAN]]: Interactive Point-based Manipulation on the Generative Image Manifold
-  - dragging as input primitive, using pairs of points, excellent results, stylegan derivative
-  - [[https://twitter.com/_akhaliq/status/1673570232429051906][DragDiffusion]]: Harnessing Diffusion Models for Interactive Point-based Image Editing
 - [[https://twitter.com/_akhaliq/status/1666633498558361600][Designing]] a Better Asymmetric VQGAN for StableDiffusion <<better vqgan>>
   - only need to retrain a new asymmetric decoder for vanilla sd; better text
+- ==DragGAN==: [[https://huggingface.co/papers/2305.10973][Drag Your]] [[https://github.com/Zeqiang-Lai/DragGAN][GAN]]: Interactive Point-based Manipulation on the Generative Image Manifold
+  - dragging as input primitive, using pairs of points, excellent results, stylegan derivative
+** DRAG DIFFUSION
+:PROPERTIES:
+:ID:       d3c6d9ef-9dff-4c60-8f92-5a523c24c139
+:END:
+- [[https://twitter.com/_akhaliq/status/1673570232429051906][DragDiffusion]]: Harnessing Diffusion Models for Interactive Point-based Image Editing
+- [[https://twitter.com/_akhaliq/status/1676808539317182464][DragonDiffusion]]: Enabling Drag-style Manipulation on Diffusion Models

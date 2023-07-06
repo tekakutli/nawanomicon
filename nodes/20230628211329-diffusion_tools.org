@@ -24,13 +24,16 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui
 - programmatic pipelines using typescript
 - https://github.com/rvion/CushyStudio
 ** COMFY NODES
-*** IMPACT PACK
-- inpainting
-- masking
-- sam
-- https://github.com/ltdrdata/ComfyUI-Impact-Pack
 *** WAS PLUGIN LIST
 - https://github.com/WASasquatch/comfyui-plugins/
+*** IMAGE PROCESSING
+**** IMPACT PACK
+- inpainting, masking, sam
+- https://github.com/ltdrdata/ComfyUI-Impact-Pack
+**** PREPROCESORS
+- turn image into canny, openpose, etc
+- it also has an inpaint node
+- https://github.com/Fannovel16/comfy_controlnet_preprocessors
 *** UPSCALER
 - https://github.com/ssitu/ComfyUI_UltimateSDUpscale
 *** TEXT ENCODERS
@@ -41,6 +44,12 @@ This means you can reproduce the same images generated on stable-diffusion-webui
 https://github.com/shiimizu/ComfyUI_smZNodes
 **** ADVANCED TOKEN WEIGHTS
 https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb
+*** IMAGE ENCODER
+:PROPERTIES:
+:ID:       a6bdca7d-3455-4b9d-93f4-bab9de716dfb
+:END:
+- [[id:1c014bca-d8db-4d28-9c49-5297626d4484][SEECODERS]] https://github.com/BlenderNeko/ComfyUI_SeeCoder
+  - prompt-free; generate with one image and one controlnet-image
 *** STREAMLINE WORKFLOWS
 - less node count
   - like highresfix:

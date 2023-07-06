@@ -13,6 +13,8 @@
   - [[https://twitter.com/papers_daily/status/1637748540653936641][strong gains]] up to 64k input length
 - [[https://twitter.com/_akhaliq/status/1664497650702471169][Bytes Are All You Need]]: [[https://huggingface.co/papers/2306.00238][Transformers]] Operating Directly On File Bytes
 - [[https://twitter.com/cloneofsimo/status/1664365355266105344][NoPE]]: dont use positional encoding (PE) in Transformer decoders (GPTs)
+- [[https://twitter.com/xiaolonw/status/1677003542249484289][Elastic Decision]] Transformer
+  - not optimal to use all history states as inputs for decision, instead shorter history
 * ALTERNATIVE
 ** STATE SPACE
 :PROPERTIES:

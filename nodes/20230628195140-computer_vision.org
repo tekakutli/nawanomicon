@@ -1,19 +1,24 @@
 :PROPERTIES:
 :ID:       39d30d24-c374-4d0c-8037-b03ecbf983fa
+:ROAM_ALIASES: VITS
 :END:
 #+title: computer_vision
 #+filetags: :nawanomicon:
 - with image detector, image tokenizer https://github.com/Vision-CAIR/MiniGPT-4
   - llava: https://llava-vl.github.io/ https://arxiv.org/abs/2304.08485
+- [[https://github.com/salesforce/LAVIS/tree/main/projects/instructblip][InstructBLIP]]: [[http://arxiv.org/abs/2305.06500][Towards General-purpose]] Vision-Language Models with Instruction Tuning
+  - image understanding
+- [[https://twitter.com/_akhaliq/status/1674237851536334849][Towards Language]] Models That Can See: Computer Vision Through the LENS of Natural Language
+  - reasoning over independent vision modules
+- [[https://twitter.com/_akhaliq/status/1676813163080175616][MSViT]]: Dynamic Mixed-Scale Tokenization for Vision Transformers
+  - dynamic tokenizer for ViTs, where the scale at which an image is processed varies based on the
+- LongNet: Scaling Transformers to 1,000,000,000 Tokens
+** CLASSIFICATION
+- [[https://twitter.com/_akhaliq/status/1668828834181836800][GeneCIS]]: A Benchmark for General Conditional Image Similarity
+  - models, should adapt to notion of similarity dynamically
 - [[https://twitter.com/_akhaliq/status/1665736170100097024][Vocabulary-free]] Image Classification
 - [[https://twitter.com/_akhaliq/status/1666262910081875970][DIffusion FeaTures (DIFT)]]: Emergent Correspondence from Image Diffusion [[ATLAS]] <<diffusion features>>
   - [[https://diffusion-classifier.github.io/][Your Diffusion]] [[https://arxiv.org/abs/2303.16203][Model is]] Secretly a Zero-Shot Classifier
-- [[https://twitter.com/_akhaliq/status/1668828834181836800][GeneCIS]]: A Benchmark for General Conditional Image Similarity
-  - models, should adapt to notion of similarity dynamically
-- [[https://twitter.com/_akhaliq/status/1674237851536334849][Towards Language]] Models That Can See: Computer Vision Through the LENS of Natural Language
-  - reasoning over independent vision modules
-- [[https://github.com/salesforce/LAVIS/tree/main/projects/instructblip][InstructBLIP]]: [[http://arxiv.org/abs/2305.06500][Towards General-purpose]] Vision-Language Models with Instruction Tuning
-  - image understanding
 * AUDIO VISION
 - Clamp: clip for music https://github.com/microsoft/muzic/tree/main/clamp
   - CLAP (Contrastive Language-Audio Pretraining): https://huggingface.co/docs/transformers/model_doc/clap
