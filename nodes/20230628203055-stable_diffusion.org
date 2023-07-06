@@ -56,6 +56,9 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
 - [[https://twitter.com/_akhaliq/status/1644557225103335425][PAIR-Diffusion]]: Object-Level Image Editing with Structure-and-Appearance
 - [[https://github.com/drboog/ProFusion][ProFusion]]: Enhancing Detail Preservation for Customized Text-to-Image Generation: A Regularization-Free Approach
   - promptnet, encoder based inversion: input image(person) gets semantically converted to output style(anime)
+- [[https://arxiv.org/abs/2305.16223][Seecoders]]: [[https://github.com/SHI-Labs/Prompt-Free-Diffusion][Prompt-Free]] Diffusion: Taking "Text" out of Text-to-Image Diffusion Models
+  - input image and controlnet, replaces clip with seecoder; works with ==stock SD==
+  - one image into several [[id:e7776978-a550-4df9-aa8f-fab33af1f689][perspective]]s
 - [[suti]] [[custom-edit diffusion]] [[Inserting Anybody]]
 *** VARIATIONS
 - image variations model (mix images): https://twitter.com/Buntworthy/status/1615302310854381571
@@ -271,7 +274,7 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - [[https://github.com/wl-zhao/VPD][VPD]]: using diffusion for depth estimation, image segmentation (better) <<vpd>> comparable [[x-decoder]]
 - [[https://github.com/isl-org/ZoeDepth][ZoeDepth]]: [[https://arxiv.org/abs/2302.12288][Combining]] relative and metric depth
 * ANTI REGULATION - GLOWS
-- [[https://arxiv.org/pdf/2303.07345.pdf][erasing]] [[https://github.com/rohitgandikota/erasing][concepts]]
+- [[https://arxiv.org/pdf/2303.07345.pdf][erasing]] [[https://github.com/rohitgandikota/erasing][concepts]] https://note.com/gcem156/n/n9f74d7d1417c
   - [[https://www.reddit.com/r/StableDiffusion/comments/125dli7/using_stable_diffusion_eraser_to_replace_a/][Using stable diffusion]] eraser to replace a concept in one model with the same concept from another
   - [[https://arxiv.org/abs/2303.17591][Forget-Me-Not]]: [[https://github.com/SHI-Labs/Forget-Me-Not][Learning to]] Forget in Text-to-Image Diffusion Models
 - [[https://twitter.com/giannis_daras/status/1663710057400524800][Ambient]] Diffusion: train diffusion models given only *corrupted* images as input (copyrightless-ed)

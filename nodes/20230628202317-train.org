@@ -3,3 +3,8 @@
 :END:
 #+title: train
 #+filetags: :nawanomicon:
+- dimensionality reduction algorithms
+  - t-SNE and UMAP had long been the favorites
+  - "Deep TDA" combines self-supervised learning and Topological Data Analysis (TDA)
+    - unlock new insights from complex datasets
+    - more robust to noise and outliers in the data
