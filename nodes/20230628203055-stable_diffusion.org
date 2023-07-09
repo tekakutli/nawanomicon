@@ -131,7 +131,6 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - imagic: editing photo with prompt: https://github.com/ShivamShrirao/diffusers/tree/main/examples/imagic
   - no fine tuning, using BLIP: https://github.com/pix2pixzero/pix2pix-zero <<pix2pix>>
 - plug-and-[[https://github.com/MichalGeyer/plug-and-play][play]] (like pix2pix but features extracted)
-- [[https://twitter.com/_akhaliq/status/1670677370276028416][MagicBrush]]: A Manually Annotated Dataset for Instruction-Guided Image Editing
 - [[Self-Guidance]]
 - [[https://arxiv.org/abs/2211.07825][Direct Inversion]]: Optimization-Free Text-Driven Real Image Editing with Diffusion Models
   - [[Ledits]]
@@ -230,6 +229,7 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - [[https://arxiv.org/abs/2305.05189][SUR-adapter]]: Enhancing Text-to-Image Pre-trained Diffusion Models with Large Language Models (llm)
     - adapter to transfer the semantic understanding of llm to align complex vs simple prompts
 ** INSTRUCTIONS
+- [[https://twitter.com/_akhaliq/status/1670677370276028416][MagicBrush]]: A Manually Annotated Dataset for Instruction-Guided Image Editing
 - InstructPix2Pix https://www.timothybrooks.com/instruct-pix2pix
   - https://github.com/timothybrooks/instruct-pix2pix
   - https://arxiv.org/abs/2211.09800

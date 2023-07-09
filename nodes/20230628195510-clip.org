@@ -5,6 +5,8 @@
 #+filetags: :nawanomicon:
 - parent: [[id:39d30d24-c374-4d0c-8037-b03ecbf983fa][computer_vision]]
 - simo take on better clip papers: https://twitter.com/cloneofsimo/status/1666086583005769728
+- [[https://twitter.com/_akhaliq/status/1655395363283431424][COLA]]: How to adapt vision-language models to Compose Objects Localized with Attributes?
+  - attributes(adjectives) with its subjects properly identified
 * PRIOR ALTERNATIVES
 - better clip, nearest neighbor
   - https://arxiv.org/pdf/2110.05208.pdf

@@ -3,7 +3,6 @@
 :END:
 #+title: application
 #+filetags: :nawanomicon:
-- [[https://github.com/Vaibhavs10/translate-with-whisper][whisper]] translator fast: https://twitter.com/reach_vb/status/1673363113888948224
 - [[https://arxiv.org/abs/2301.00250][DensePose From WiFi]] three wifis to get pose of human
 - [[https://twitter.com/_akhaliq/status/1671361950679277568][Point-Cloud]] Completion with Pretrained Text-to-image Diffusion Models
   - from incomplete point cloud to 3d model

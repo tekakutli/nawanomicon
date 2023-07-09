@@ -8,11 +8,11 @@
   - llava: https://llava-vl.github.io/ https://arxiv.org/abs/2304.08485
 - [[https://github.com/salesforce/LAVIS/tree/main/projects/instructblip][InstructBLIP]]: [[http://arxiv.org/abs/2305.06500][Towards General-purpose]] Vision-Language Models with Instruction Tuning
   - image understanding
+- LongNet: Scaling Transformers to 1,000,000,000 Tokens
 - [[https://twitter.com/_akhaliq/status/1674237851536334849][Towards Language]] Models That Can See: Computer Vision Through the LENS of Natural Language
   - reasoning over independent vision modules
 - [[https://twitter.com/_akhaliq/status/1676813163080175616][MSViT]]: Dynamic Mixed-Scale Tokenization for Vision Transformers
   - dynamic tokenizer for ViTs, where the scale at which an image is processed varies based on the
-- LongNet: Scaling Transformers to 1,000,000,000 Tokens
 ** CLASSIFICATION
 - [[https://twitter.com/_akhaliq/status/1668828834181836800][GeneCIS]]: A Benchmark for General Conditional Image Similarity
   - models, should adapt to notion of similarity dynamically
@@ -20,7 +20,15 @@
 - [[https://twitter.com/_akhaliq/status/1666262910081875970][DIffusion FeaTures (DIFT)]]: Emergent Correspondence from Image Diffusion [[ATLAS]] <<diffusion features>>
   - [[https://diffusion-classifier.github.io/][Your Diffusion]] [[https://arxiv.org/abs/2303.16203][Model is]] Secretly a Zero-Shot Classifier
 * AUDIO VISION
+:PROPERTIES:
+:ID:       f03ccf94-1aa5-4705-89af-617a22570e26
+:END:
 - Clamp: clip for music https://github.com/microsoft/muzic/tree/main/clamp
   - CLAP (Contrastive Language-Audio Pretraining): https://huggingface.co/docs/transformers/model_doc/clap
 - [[https://arxiv.org/pdf/2305.11834.pdf][Pengi]]: An Audio Language Model for Audio Tasks
   - audio understanding
+** WHISPER
+- [[https://github.com/Vaibhavs10/translate-with-whisper][whisper]] translator fast: https://twitter.com/reach_vb/status/1673363113888948224
+  - [[https://twitter.com/_akhaliq/status/1677150590516834305][Whisper-AT]]: Noise-Robust Automatic Speech Recognizers are Also Strong General Audio Event Taggers
+    - audio representation is actually not noise-invariant
+      - audio tagging model on top, <1% extra computational, a single forward pass

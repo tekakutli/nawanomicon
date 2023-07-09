@@ -4,6 +4,7 @@
 #+title: voice
 #+filetags: :nawanomicon:
 - parent: [[id:e9be16f7-8032-4509-9aa9-7843836eacd9][domain]]
+- [[id:f03ccf94-1aa5-4705-89af-617a22570e26][AUDIO VISION]]
 * GENERATION
 - [[https://arxiv.org/abs/2303.02939][FoundationTTS]]: Text-to-Speech for ASR Custmization with Generative Language Model (automatic phonems, coerse and fine composition)
 - artificial tongue-throat https://twitter.com/ConcreteSciFi/status/1642249097104220160

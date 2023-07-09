@@ -7,8 +7,10 @@
 - [[https://weiyuli.xyz/GenMM/][GenMM]]: [[https://huggingface.co/papers/2306.00378][Example-based]] Motion Synthesis via Generative Motion Matching
   - training free, generated in a fraction of a second
 - [[https://arxiv.org/abs/2304.03274][DiffMimic]]: [[https://github.com/jiawei-ren/diffmimic][Efficient]] Motion Mimicking with Differentiable Physics
-- [[https://twitter.com/_akhaliq/status/1665938011068964864][MotionDiffuser]]: Controllable Multi-Agent Motion Prediction using Diffusion (future trajectories over multiple agents)
+- [[https://twitter.com/_akhaliq/status/1676822600478015488][Physics-based]] Motion Retargeting from Sparse Inputs
+  - from sparse human sensor data to characters of various morphologies
 * DIFFUSION MOTION
 - parent: [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
 - [[https://arxiv.org/pdf/2304.01116.pdf][ReMoDiffuse]]: [[https://github.com/mingyuan-zhang/ReMoDiffuse][Retrieval-Augmented]] Motion Diffusion Model
   - semantic augmented database, + previous motion features sequences
+- [[https://twitter.com/_akhaliq/status/1665938011068964864][MotionDiffuser]]: Controllable Multi-Agent Motion Prediction using Diffusion (future trajectories over multiple agents)
