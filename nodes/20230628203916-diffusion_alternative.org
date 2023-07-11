@@ -41,4 +41,5 @@
 :ID:       d3c6d9ef-9dff-4c60-8f92-5a523c24c139
 :END:
 - [[https://twitter.com/_akhaliq/status/1673570232429051906][DragDiffusion]]: Harnessing Diffusion Models for Interactive Point-based Image Editing
+  - https://github.com/Yujun-Shi/DragDiffusion
 - [[https://twitter.com/_akhaliq/status/1676808539317182464][DragonDiffusion]]: Enabling Drag-style Manipulation on Diffusion Models

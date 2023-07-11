@@ -4,6 +4,9 @@
 #+title: diffusion_video
 #+filetags: :nawanomicon:
 - parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
+- [[https://twitter.com/_akhaliq/status/1678610810644451328][AnimateDiff]]: [[https://www.reddit.com/r/StableDiffusion/comments/14wgv2p/animatediff_animate_your_personalized_texttoimage/][Animate]] Your Personalized Text-to-Image Diffusion Models without Specific Tuning
+  - insert newish motion module into frozen(normal sd) text-to-image model ==best one, it's over==
+  - [[https://twitter.com/GuoywGuo/status/1679088174449184768][12gb ram]]
 * 4D CONTROL
 - [[https://twitter.com/_akhaliq/status/1664084264349040640][Control4D]]: [[https://huggingface.co/papers/2305.20082][Dynamic]] Portrait Editing by Learning 4D GAN from 2D Diffusion-based Editor <<Control4D>>
   - 4d gan, 2D diffusion, consistent 4D, ==best one==
@@ -41,7 +44,7 @@
 - [[sparseformer]]
   - [[https://sites.google.com/view/mebt-cvpr2023][Towards End-to-End]] [[https://arxiv.org/abs/2303.11251][Generative]] Modeling of Long Videos with Memory-Efficient Bidirectional Transformers
     - autorregresive with patches
-* VIDEO MAKING
+* VIDEO MAKING TRICKS
 - fantastic creatures [[https://www.reddit.com/r/StableDiffusion/comments/11m6v7i/how_was_this_effect_achieved_with_such/][video]]
 - script cinema inspired: https://xanthius.itch.io/multi-frame-rendering-for-stablediffusion [[https://www.reddit.com/r/StableDiffusion/comments/11mlleh/custom_animation_script_for_automatic1111_in_beta/][reddit]]
 - video fix: https://www.reddit.com/r/StableDiffusion/comments/11f8i0g/t_frame_prediction_with_controlnet/ last frame

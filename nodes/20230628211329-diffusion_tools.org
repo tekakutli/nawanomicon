@@ -9,6 +9,8 @@ https://github.com/comfyanonymous/ComfyUI
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 https://github.com/ddPn08/Radiata
 - Stable diffusion webui based on diffusers
+* GUIDES
+https://gitgud.io/gayshit/makesomefuckingporn
 * COMFY
 :PROPERTIES:
 :ID:       0b531c2f-a0c0-418e-97ce-d2afcc626834

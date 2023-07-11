@@ -11,6 +11,9 @@
   - learned background prompt, thus focuses in the object
 - object detection and segmentator: https://github.com/facebookresearch/CutLER
 * SAM
+:PROPERTIES:
+:ID:       1eb158d5-47a5-42a4-8692-86c42376d25a
+:END:
 - [[https://twitter.com/_akhaliq/status/1645115958594351106][SAM + DINO]], [[https://github.com/mattyamonaca/PBRemTools][segment]] anything, image region editing
 - [[https://huggingface.co/papers/2306.01567][high quality sam]]
   - [[https://twitter.com/_akhaliq/status/1666273462766170113][Recognize]] Anything: A Strong Image Tagging Model
@@ -18,6 +21,8 @@
 - [[https://github.com/geekyutao/Inpaint-Anything][inpainting]]
 - [[https://arxiv.org/abs/2306.12156][Fast Segment]] Anything, [[https://github.com/casia-iva-lab/fastsam][40ms per]] image
 - segment videos https://github.com/gaomingqi/Track-Anything
+- [[https://twitter.com/_akhaliq/status/1678599147455119363][Semantic-SAM]]: Segment and Recognize Anything at Any Granularity
+  - generate masks at multiple levels
 ** USE CASES
 - see relationships between them https://github.com/Luodian/RelateAnything
 - [[https://twitter.com/_akhaliq/status/1667027179308195843][Matting]] Anything Model (MAM): green screen-ed

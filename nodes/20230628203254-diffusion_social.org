@@ -9,13 +9,16 @@
 * OTHERS
 - stable diffusion news: https://rentry.org/niakonichan [[https://rentry.org/niakonichan-news][news]] [[https://www.sdcompendium.com/doku.php?id=start][wiki]]
   - summary of tools: https://note.com/stelsray/n/n4af1a4eaad1b
-    - [[https://note.com/stelsray/n/n1b1f12e17c5d][charturner]]
+    - [[https://note.com/stelsray/n/n1b1f12e17c5d][charturner]] several faces of one character
 - collection of notebooks: https://docs.google.com/spreadsheets/d/1xqR0lZ1Fd5WbNcEdU2zomIbdTKyrna8YlXja_5Q8hyY/edit#gid=1321374049
 - best models: https://www.reddit.com/r/StableDiffusion/comments/14ewpbe/what_is_ur_fav_model/
 - blogs
   - https://note.com/kohya_ss
   - https://note.com/kohya_ss/n/n2693183a798e
   - https://note.com/gcem156/n/ne334e7be9eb7
+* AI TARGETED IMAGE HOSTING
+- https://aibooru.online/
+- https://www.chichi-pui.com/
 * EDUCATION
 - UNET dissected, stable diffusion inner workings: https://nn.labml.ai/diffusion/stable_diffusion/model/unet.html
   - diffusion-model explanation https://huggingface.co/blog/annotated-diffusion position embeddings

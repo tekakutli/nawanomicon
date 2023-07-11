@@ -28,7 +28,11 @@
 - [[https://arxiv.org/pdf/2305.11834.pdf][Pengi]]: An Audio Language Model for Audio Tasks
   - audio understanding
 ** WHISPER
+:PROPERTIES:
+:ID:       e54caacc-519a-4187-bafc-4d32c33f1e2b
+:END:
 - [[https://github.com/Vaibhavs10/translate-with-whisper][whisper]] translator fast: https://twitter.com/reach_vb/status/1673363113888948224
   - [[https://twitter.com/_akhaliq/status/1677150590516834305][Whisper-AT]]: Noise-Robust Automatic Speech Recognizers are Also Strong General Audio Event Taggers
     - audio representation is actually not noise-invariant
       - audio tagging model on top, <1% extra computational, a single forward pass
+  - [[https://twitter.com/xenovacom/status/1678180605836533762][word-level]] timestamps w/ whisper

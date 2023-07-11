@@ -12,6 +12,9 @@
   - image + text + shape prior = mesh
 - [[https://twitter.com/_akhaliq/status/1675684794653351936][Magic123]]: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors ==best==
   - for both stages; first stage coarse geometry first then details
+- [[https://twitter.com/_akhaliq/status/1678597161360019459][Sketch-A-Shape]]: Zero-Shot Sketch-to-3D Shape Generation
+  - both sketches and CADs into meshes
+  - without requiring any paired datasets during training
 * MESH DIFFUSION
 - [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
 - [[https://twitter.com/_akhaliq/status/1641241817269108736][HOLODIFFUSION]]: Training a 3D Diffusion Model using 2D Images
