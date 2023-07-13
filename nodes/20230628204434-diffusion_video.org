@@ -14,6 +14,10 @@
   - parent: [[id:8f3bb7b5-1212-458f-97d8-5458ed6ae466][face]]
 - [[https://twitter.com/_akhaliq/status/1676084523006566403][DisCo]]: Disentangled Control for Referring Human Dance Generation in Real World
   - human dance(movement) images and videos (using skelleton rigs)
+- [[https://twitter.com/_akhaliq/status/1678943514917326848][Collaborative]] Score Distillation for Consistent Visual Synthesis
+  - consistent visual synthesis across multiple samples ==best==
+  - distill generative priors over a set of images synchronously
+  - zoom, video, panoramas
 * SEMANTICALLY DEFORMED
 - [[https://tuneavideo.github.io/][Tune-A-Video]]: [[https://github.com/showlab/Tune-A-Video][One-Shot]] Tuning of Image Diffusion Models for Text-to-Video Generation
   - inflated to video

@@ -15,6 +15,8 @@
 - [[https://twitter.com/_akhaliq/status/1678597161360019459][Sketch-A-Shape]]: Zero-Shot Sketch-to-3D Shape Generation
   - both sketches and CADs into meshes
   - without requiring any paired datasets during training
+- [[https://twitter.com/_akhaliq/status/1678969402107076609][Differentiable Blocks]] World: Qualitative 3D Decomposition by Rendering Primitives
+  - turned into big blocks; interpretable, easy to manipulate and suited for physics-based simulations
 * MESH DIFFUSION
 - [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
 - [[https://twitter.com/_akhaliq/status/1641241817269108736][HOLODIFFUSION]]: Training a 3D Diffusion Model using 2D Images
@@ -24,3 +26,4 @@
 - parent: [[id:f5d2ef09-1412-4955-a3c5-c22f6fff8d11][nerf]]
 - [[https://autonomousvision.github.io/sdfstudio/][A Unified]] [[https://github.com/autonomousvision/sdfstudio][Framework]] for Surface Reconstruction, 3d from nerf
 - Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures; [[https://github.com/eladrich/latent-nerf][latent nerf]]
+  - [[https://twitter.com/_akhaliq/status/1678946803343925248][AutoDecoding]] Latent 3D Diffusion Models, view-consistent appearance and geometry

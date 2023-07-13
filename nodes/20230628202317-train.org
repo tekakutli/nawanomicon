@@ -8,5 +8,8 @@
   - "Deep TDA" combines self-supervised learning and Topological Data Analysis (TDA)
     - unlock new insights from complex datasets
     - more robust to noise and outliers in the data
+- [[https://twitter.com/_akhaliq/status/1678970340033150977][Self-Supervised]] Learning with Lie Symmetries for Partial Differential Equations
+  - computationally efficient alternatives to numerical solvers
+  - self-supervised learn general-purpose representations of PDEs from heterogeneous data
 * CHEAPNESS
 - [[https://huggingface.co/papers/2307.03576][One Step of]] Gradient Descent is Provably the Optimal In-Context Learner with One Layer of Linear Self-Attention

@@ -21,7 +21,7 @@
 - [[https://github.com/geekyutao/Inpaint-Anything][inpainting]]
 - [[https://arxiv.org/abs/2306.12156][Fast Segment]] Anything, [[https://github.com/casia-iva-lab/fastsam][40ms per]] image
 - segment videos https://github.com/gaomingqi/Track-Anything
-- [[https://twitter.com/_akhaliq/status/1678599147455119363][Semantic-SAM]]: Segment and Recognize Anything at Any Granularity
+- [[https://twitter.com/_akhaliq/status/1678599147455119363][Semantic-SAM]]: [[https://github.com/UX-Decoder/Semantic-SAM][Segment]] and Recognize Anything at Any Granularity
   - generate masks at multiple levels
 ** USE CASES
 - see relationships between them https://github.com/Luodian/RelateAnything

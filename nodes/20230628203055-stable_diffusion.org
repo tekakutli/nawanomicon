@@ -266,6 +266,7 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - [[https://huggingface.co/papers/2305.18259][GlyphControl]]: [[https://github.com/AIGText/GlyphControl-release][Glyph Conditional]] Control for Visual Text Generation ==this==
 - [[https://github.com/microsoft/unilm/tree/master/textdiffuser][TextDiffuser]]: [[https://arxiv.org/pdf/2305.10855.pdf][Diffusion]] [[https://huggingface.co/spaces/microsoft/TextDiffuser][Models]] as Text Painters
 ** IMAGE RESTORATION, SUPER-RESOLUTION
+- [[id:d96c450a-fdfc-40d9-b219-cde4b269e221][ENHANCEMENT]]
 - [[FreeDoM]]
 - [[https://arxiv.org/abs/2304.08291][refusion]]: Image Restoration with Mean-Reverting Stochastic Differential Equations
 - image restoration IR https://arxiv.org/pdf/2212.00490.pdf
