@@ -9,6 +9,9 @@ https://github.com/comfyanonymous/ComfyUI
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 https://github.com/ddPn08/Radiata
 - Stable diffusion webui based on diffusers
+* PAPERS IMPLEMENTATION
+- AnimateDiff
+  - https://github.com/talesofai/AnimateDiff
 * GUIDES
 https://gitgud.io/gayshit/makesomefuckingporn
 * COMFY

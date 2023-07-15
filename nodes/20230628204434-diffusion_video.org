@@ -4,9 +4,6 @@
 #+title: diffusion_video
 #+filetags: :nawanomicon:
 - parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
-- [[https://twitter.com/_akhaliq/status/1678610810644451328][AnimateDiff]]: [[https://www.reddit.com/r/StableDiffusion/comments/14wgv2p/animatediff_animate_your_personalized_texttoimage/][Animate]] Your Personalized Text-to-Image Diffusion Models without Specific Tuning
-  - insert newish motion module into frozen(normal sd) text-to-image model ==best one, it's over==
-  - [[https://twitter.com/GuoywGuo/status/1679088174449184768][12gb ram]]
 * 4D CONTROL
 - [[https://twitter.com/_akhaliq/status/1664084264349040640][Control4D]]: [[https://huggingface.co/papers/2305.20082][Dynamic]] Portrait Editing by Learning 4D GAN from 2D Diffusion-based Editor <<Control4D>>
   - 4d gan, 2D diffusion, consistent 4D, ==best one==
@@ -25,6 +22,10 @@
     - most fluid one, without training
     - based on Tune a Video
   - [[https://yingqinghe.github.io/LVDM/][VideoCrafter]]: [[https://github.com/VideoCrafter/VideoCrafter][A Toolkit]] [[https://github.com/VideoCrafter/VideoCrafter][for Text-to-Video]] Generation and Editing: [[https://twitter.com/jfischoff/status/1643649328723144705/photo/1][deeper meaning]] (has loras and controlnet)
+  - [[https://twitter.com/_akhaliq/status/1678610810644451328][AnimateDiff]]: [[https://www.reddit.com/r/StableDiffusion/comments/14wgv2p/animatediff_animate_your_personalized_texttoimage/][Animate]] Your Personalized Text-to-Image Diffusion Models without Specific Tuning
+    - based on tune-a-video
+    - insert newish motion module into frozen(normal sd) text-to-image model ==best one, it's over==
+    - [[https://twitter.com/GuoywGuo/status/1679088174449184768][12gb ram]]
 - https://research.nvidia.com/labs/toronto-ai/VideoLDM/ hd, but still semantically deformed
 - VideoFusion: damo/text-to-video-[[https://modelscope.cn/models/damo/text-to-video-synthesis/files][synthesis]], [[https://www.modelscope.cn/models/damo/cv_diffusion_text-to-image-synthesis_tiny/summary][summary]] [[https://www.modelscope.cn/models/damo/cv_diffusion_text-to-image-synthesis_tiny/summary][tiny]], [[https://arxiv.org/pdf/2303.08320.pdf][paper]]
   - https://rentry.org/f34hy [[https://huggingface.co/damo-vilab/modelscope-damo-text-to-video-synthesis/commit/ac7fbae73c65a6bbde3814d0198e16bb8e886cef][license change commit]]

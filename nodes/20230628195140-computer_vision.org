@@ -12,7 +12,7 @@
 - [[https://twitter.com/_akhaliq/status/1674237851536334849][Towards Language]] Models That Can See: Computer Vision Through the LENS of Natural Language
   - reasoning over independent vision modules
 - [[https://twitter.com/_akhaliq/status/1676813163080175616][MSViT]]: Dynamic Mixed-Scale Tokenization for Vision Transformers
-  - dynamic tokenizer for ViTs, where the scale at which an image is processed varies based on the
+  - dynamic tokenizer for ViTs, where the scale at which an image is processed varies based on semantic details
 ** CLASSIFICATION
 - [[https://twitter.com/_akhaliq/status/1668828834181836800][GeneCIS]]: A Benchmark for General Conditional Image Similarity
   - models, should adapt to notion of similarity dynamically
