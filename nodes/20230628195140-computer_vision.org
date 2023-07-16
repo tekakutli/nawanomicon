@@ -13,6 +13,9 @@
   - reasoning over independent vision modules
 - [[https://twitter.com/_akhaliq/status/1676813163080175616][MSViT]]: Dynamic Mixed-Scale Tokenization for Vision Transformers
   - dynamic tokenizer for ViTs, where the scale at which an image is processed varies based on semantic details
+** CAPTIONING
+- [[https://twitter.com/_akhaliq/status/1679308968521261056][SITTA]]: A Semantic Image-Text Alignment for Image Captioning
+  - linear semantic mappings = image captioning without access to gradient information; less computation
 ** CLASSIFICATION
 - [[https://twitter.com/_akhaliq/status/1668828834181836800][GeneCIS]]: A Benchmark for General Conditional Image Similarity
   - models, should adapt to notion of similarity dynamically
@@ -23,15 +26,15 @@
 :PROPERTIES:
 :ID:       f03ccf94-1aa5-4705-89af-617a22570e26
 :END:
-- Clamp: clip for music https://github.com/microsoft/muzic/tree/main/clamp
-  - CLAP (Contrastive Language-Audio Pretraining): https://huggingface.co/docs/transformers/model_doc/clap
+- [[https://github.com/microsoft/muzic/tree/main/clamp][Clamp]]: clip for music
+  - [[https://huggingface.co/docs/transformers/model_doc/clap][CLAP]] (Contrastive Language-Audio Pretraining)
 - [[https://arxiv.org/pdf/2305.11834.pdf][Pengi]]: An Audio Language Model for Audio Tasks
   - audio understanding
 ** WHISPER
 :PROPERTIES:
 :ID:       e54caacc-519a-4187-bafc-4d32c33f1e2b
 :END:
-- [[https://github.com/Vaibhavs10/translate-with-whisper][whisper]] translator fast: https://twitter.com/reach_vb/status/1673363113888948224
+- [[https://github.com/Vaibhavs10/translate-with-whisper][whisper]] [[https://twitter.com/reach_vb/status/1673363113888948224][translator]] fast
   - [[https://twitter.com/_akhaliq/status/1677150590516834305][Whisper-AT]]: Noise-Robust Automatic Speech Recognizers are Also Strong General Audio Event Taggers
     - audio representation is actually not noise-invariant
       - audio tagging model on top, <1% extra computational, a single forward pass

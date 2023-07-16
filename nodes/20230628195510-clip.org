@@ -7,6 +7,8 @@
 - simo take on better clip papers: https://twitter.com/cloneofsimo/status/1666086583005769728
 - [[https://twitter.com/_akhaliq/status/1655395363283431424][COLA]]: How to adapt vision-language models to Compose Objects Localized with Attributes?
   - attributes(adjectives) with its subjects properly identified
+- [[https://twitter.com/_akhaliq/status/1646683395055919104][What does]] CLIP know about a red circle? Visual prompt engineering for VLMs
+  - direct the model attention to that region, while also maintaining global information
 * PRIOR ALTERNATIVES
 - better clip, nearest neighbor
   - https://arxiv.org/pdf/2110.05208.pdf

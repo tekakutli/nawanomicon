@@ -5,6 +5,8 @@
 #+filetags: :nawanomicon:
 - parent: [[id:c7fe7e79-73d3-4cc7-a673-2c2e259ab5b5][stable_diffusion]]
 * 4D CONTROL
+- [[https://t.co/dLjkJDBfJa][DiffDreamer]]: [[https://twitter.com/prime_cai/status/1680429147146063874][Consistent]] Single-view Perpetual View Generation with Conditional Diffusion Models
+  - landscape(mountains) fly overs
 - [[https://twitter.com/_akhaliq/status/1664084264349040640][Control4D]]: [[https://huggingface.co/papers/2305.20082][Dynamic]] Portrait Editing by Learning 4D GAN from 2D Diffusion-based Editor <<Control4D>>
   - 4d gan, 2D diffusion, consistent 4D, ==best one==
   - change face of video

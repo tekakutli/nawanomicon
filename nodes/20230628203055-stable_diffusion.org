@@ -186,8 +186,11 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - personalized images with only a single forward pass
 - [[https://twitter.com/WenhuChen/status/1643079958388940803][SuTi]]: [[https://open-vision-language.github.io/suti/][Subject-driven]] Text-to-Image Generation via Apprenticeship Learning (using examples)
   - replaces subject-specific fine tuning with in-context learning, <<suti>>
+- [[https://twitter.com/kelvinckchan/status/1680288217378197504][Taming]] Encoder for Zero Fine-tuning Image Customization with Text-to-Image Diffusion Models
+  - using CLIP features extracted from the subject
 - [[https://twitter.com/_akhaliq/status/1673544034193924103][DomainStudio]]: Fine-Tuning Diffusion Models for Domain-Driven Image Generation using Limited Data
   - keep the relative distances between adapted samples to achieve generation diversity
+- [[https://twitter.com/AbermanKfir/status/1679689404573679616][HyperDreamBooth]]: HyperNetworks for Fast Personalization of Text-to-Image Models
 **** THROUGH PROMPT
 - [[STEERING]]
 - [[https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion][magic prompt]]: amplifies-improves the prompt

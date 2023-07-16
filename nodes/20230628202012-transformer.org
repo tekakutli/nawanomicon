@@ -37,5 +37,7 @@
 - [[https://twitter.com/_akhaliq/status/1645278535878049792][SparseFormer]]: Sparse Visual Recognition via Limited Latent Tokens  <<sparseformer>>
   - codebook for videos tokens, not optical flow, 49 tokens
 - DINO: self-suppervised Vision Transformers https://youtu.be/h3ij3F3cPIk
+** HIERARCHICAL DETAILS
 - [[https://twitter.com/_akhaliq/status/1645603021248778241][Slide-Transformer]]: Hierarchical Vision Transformer with Local Self-Attention
 - [[https://twitter.com/_akhaliq/status/1668459325805699073][FasterViT]]: Fast Vision Transformers with Hierarchical Attention
+- [[https://twitter.com/_akhaliq/status/1679344960150151168][Patch]] n' Pack: NaViT, a Vision Transformer for any Aspect Ratio and Resolution
