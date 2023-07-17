@@ -170,6 +170,7 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - extra on top, not finetune the original diffusion model, awesome quality, <<ViCo>>
 - [[HiPer]], [[P+]] : learning text embeddings for each layer of the unet
 - [[https://ziqihuangg.github.io/projects/reversion.html][ReVersion]]: [[https://github.com/ziqihuangg/ReVersion][Diffusion-Based]] Relation Inversion from Images (textual inversion for verbs) material textures
+  - unlike inverting object appearance, inverting object relation
 - [[https://huggingface.co/papers/2306.00926][Inserting Anybody]] in Diffusion Models via Celeb Basis <<Inserting Anybody>>
   - one facial photograph, 1024 learnable parameters, 3 minutes; several at once
 - [[https://twitter.com/_akhaliq/status/1668450247385796609][Controlling]] [[https://github.com/Zeju1997/oft][Text-to-Image]] Diffusion by Orthogonal Finetuning

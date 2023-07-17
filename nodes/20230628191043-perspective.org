@@ -15,6 +15,9 @@
   - [[https://twitter.com/rsasaki0109/status/1674362772388458497][Detector-Free]] Structure from Motion
 - [[https://twitter.com/_akhaliq/status/1676094652020031488][Real-time]] Monocular Full-body Capture in World Space via Sequential Proxy-to-Motion Learning
   - body tracking, only one view needed
+- [[https://twitter.com/_akhaliq/status/1680773352791703552][NIFTY]]: Neural Object Interaction Fields for Guided Human Motion Synthesis
+  - neural interaction field attached to a specific object
+  - guided diffusion model trained on generated synthetic data
 * NERF ALTERNATIVE
 - parent: [[id:f5d2ef09-1412-4955-a3c5-c22f6fff8d11][nerf]]
 - ==nerf alternative== [[roomdreamer]]

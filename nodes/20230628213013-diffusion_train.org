@@ -40,8 +40,6 @@
 - [[https://arxiv.org/abs/2211.10370][D3S]]: Invariant Learning via Diffusion Dreamed Distribution Shifts, separating foreground-background
   - disentangling foreground from background by chopping-pasting them out in the synthetic training dataset
   - like SVDiff
-- [[https://arxiv.org/pdf/2303.11114.pdf][SeiT]]: [[https://github.com/naver-ai/seit][Storage-efficient]] Vision Training: <1% of the original JPEG-compressed images
-  - Token-based Storage
 ** ATLAS
 - [[Neural Congealing: Aligning Images to a Joint Semantic Atlas][Neural Congealing]]: [[https://neural-congealing.github.io/][Aligning Images]] to a Joint Semantic Atlas <<semantic atlas>>
   - zeroshot leaning concept-shapes

@@ -26,7 +26,10 @@
 ** USE CASES
 - see relationships between them https://github.com/Luodian/RelateAnything
 - [[https://twitter.com/_akhaliq/status/1667027179308195843][Matting]] Anything Model (MAM): green screen-ed
+*** FOLLOW AREA
 - [[https://twitter.com/_akhaliq/status/1676092343148064770][Segment]] Anything Meets Point Tracking, follow pixels, [[id:88e29751-d7d6-41e4-8375-3c7ac24cb77b][OPTICAL FLOW]]
+- [[https://twitter.com/_akhaliq/status/1680772619392385025][DreamTeacher]]: Pretraining Image Backbones with Deep Generative Models
+  - following 3d concepts with 3d understanding
 * 3D SEGMENATION
   - [[https://github.com/Jumpat/SegmentAnythingin3D][Segment]] Anything in 3D with NeRFs (SA3D)
     - [[https://twitter.com/_akhaliq/status/1665926124487036929][SAM3D]]: Zero-Shot 3D Object Detection via Segment Anything Model

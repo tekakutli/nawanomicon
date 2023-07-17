@@ -3,8 +3,6 @@
 :END:
 #+title: text
 #+filetags: :nawanomicon:
-- [[https://github.com/facebookresearch/NPM][NPM]]: Nonparametric Masked Language Modeling, vs GPTv3, text corpus based
-  - other code implementations https://www.catalyzex.com/paper/arxiv:2212.01349/code
 - [[https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/][OpenSource]] [[https://twitter.com/rskuzma/status/1640721436179308545][Model]] but for new Hardware
 - translation prompt: https://boards.4channel.org/g/thread/92468569#p92470651
 - [[https://selfrefine.info/][Self-Refine]]: Iterative Refinement with Self-Feedback
@@ -18,6 +16,13 @@
 - [[https://arxiv.org/abs/2303.09014][ART]]: [[https://github.com/bhargaviparanjape/language-programmes/][Automatic]] multi-step reasoning and tool-use for large language models
   - bubbles of logic
 - [[https://twitter.com/_akhaliq/status/1676052985544155136][Personality Traits]] in Large Language Models, quantifying personalities
+* CORPUS
+- [[https://github.com/facebookresearch/NPM][NPM]]: Nonparametric Masked Language Modeling, vs GPTv3, text corpus based
+  - other code implementations https://www.catalyzex.com/paper/arxiv:2212.01349/code
+- [[https://twitter.com/_akhaliq/status/1680740847128653829][Copy]] Is All You Need
+  - task of text generation decomposed into a series of copy-and-paste operations
+  - text spans rather than vocabulary
+  - learning = text compression algorithm ?
 * TRAIN TEXT MODEL
 - [[https://arxiv.org/abs/2304.05511][Training]] Large Language Models Efficiently with Sparsity and Dataflow
 - [[https://arxiv.org/pdf/2305.11206.pdf][LIMA]]: [[https://twitter.com/_akhaliq/status/1660458199504556034][Less]] Is More for Alignment
