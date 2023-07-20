@@ -19,10 +19,11 @@
 * CORPUS
 - [[https://github.com/facebookresearch/NPM][NPM]]: Nonparametric Masked Language Modeling, vs GPTv3, text corpus based
   - other code implementations https://www.catalyzex.com/paper/arxiv:2212.01349/code
-- [[https://twitter.com/_akhaliq/status/1680740847128653829][Copy]] Is All You Need
-  - task of text generation decomposed into a series of copy-and-paste operations
-  - text spans rather than vocabulary
-  - learning = text compression algorithm ?
+- [[GZIP VS GPT]]
+  - [[https://twitter.com/_akhaliq/status/1680740847128653829][Copy]] Is All You Need
+    - task of text generation decomposed into a series of copy-and-paste operations
+    - text spans rather than vocabulary
+    - learning = text compression algorithm ?
 * TRAIN TEXT MODEL
 - [[https://arxiv.org/abs/2304.05511][Training]] Large Language Models Efficiently with Sparsity and Dataflow
 - [[https://arxiv.org/pdf/2305.11206.pdf][LIMA]]: [[https://twitter.com/_akhaliq/status/1660458199504556034][Less]] Is More for Alignment

@@ -11,9 +11,12 @@
 - [[https://twitter.com/_akhaliq/status/1678970340033150977][Self-Supervised]] Learning with Lie Symmetries for Partial Differential Equations
   - computationally efficient alternatives to numerical solvers
   - self-supervised learn general-purpose representations of PDEs from heterogeneous data
-* GPT
-** CLASSIFIER
-- gzip instead of parameters for classification
-  - “[[https://aclanthology.org/2023.findings-acl.426.pdf][Low-Resource]]” Text Classification: A Parameter-Free Classification Method with Compressors
+* CLASSIFIER
+** GZIP VS GPT
+:PROPERTIES:
+:ID:       316325a1-f24b-487d-9238-ca35db3a6b0c
+:END:
+  - gzip instead of parameters for classification
+    - “[[https://aclanthology.org/2023.findings-acl.426.pdf][Low-Resource]]” Text Classification: A Parameter-Free Classification Method with Compressors
 * CHEAPNESS
 - [[https://huggingface.co/papers/2307.03576][One Step of]] Gradient Descent is Provably the Optimal In-Context Learner with One Layer of Linear Self-Attention

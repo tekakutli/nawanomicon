@@ -12,6 +12,12 @@ https://github.com/ddPn08/Radiata
 * PAPERS IMPLEMENTATION
 - AnimateDiff
   - https://github.com/talesofai/AnimateDiff
+* TAGGER
+** WD TAGGER
+- https://github.com/picobyte/stable-diffusion-webui-wd14-tagger/tree/master
+- model: https://huggingface.co/SmilingWolf/wd-v1-4-vit-tagger/tree/main
+- model: https://github.com/KichangKim/DeepDanbooru/releases/tag/v3-20211112-sgd-e28
+- cli: https://github.com/KichangKim/DeepDanbooru
 * GUIDES
 https://gitgud.io/gayshit/makesomefuckingporn
 * COMFY

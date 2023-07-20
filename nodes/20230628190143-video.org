@@ -20,6 +20,7 @@
 :END:
 - [[https://arxiv.org/abs/2003.12039][RAFT]]: [[https://github.com/princeton-vl/RAFT][Recurrent]] All-Pairs Field Transforms for Optical Flow  (video optical flow)
   - [[https://twitter.com/_akhaliq/status/1667052177146126336][OmniMotion]]: Tracking Everything Everywhere All at Once (following pixels, optical flow)
+  - [[https://twitter.com/_akhaliq/status/1681162394393886720][INVE]]: Interactive Neural Video Editing; painting pixels, then following them
 *** DIFFUSION OPTICAL FLOW
 - parent: [[id:82127d6a-b3bb-40bf-a912-51fa5134dacc][diffusion]]
 - [[https://twitter.com/_akhaliq/status/1665929002668662784][The Surprising]] Effectiveness of Diffusion Models for Optical Flow and Monocular Depth Estimation

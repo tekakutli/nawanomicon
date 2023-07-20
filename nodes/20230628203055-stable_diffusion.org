@@ -73,10 +73,13 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
 - editing [[https://time-diffusion.github.io/TIME_paper.pdf][default]] of a prompt: https://github.com/bahjat-kawar/time-diffusion
 - [[https://github.com/SusungHong/Self-Attention-Guidance][Self-Attention Guidance]] (SAG): [[https://arxiv.org/pdf/2210.00939.pdf][SAG leverages]] [[https://github.com/ashen-sensored/sd_webui_SAG][intermediate attention]] maps of diffusion models at each iteration to capture essential information for the generative process and guide it accordingly
   - pretty much just reimplemented the attention function without changing much else,
-  - Aligning Text-to-Image Models using Human Feedback https://arxiv.org/abs/2302.12192
-    - [[https://tgxs002.github.io/align_sd_web/][Better Aligning]] Text-to-Image Models with Human Preference
-    - [[https://github.com/GanjinZero/RRHF][RRHF]]: Rank Responses to Align Language Models with Human Feedback without tears
-    - [[https://github.com/THUDM/ImageReward][ImageReward]]: [[https://arxiv.org/abs/2304.05977][Learning]] and Evaluating Human Preferences for Text-to-Image Generation
+** HUMAN FEEDBACK
+- Aligning Text-to-Image Models using Human Feedback https://arxiv.org/abs/2302.12192
+  - [[https://tgxs002.github.io/align_sd_web/][Better Aligning]] Text-to-Image Models with Human Preference
+  - [[https://github.com/GanjinZero/RRHF][RRHF]]: Rank Responses to Align Language Models with Human Feedback without tears
+  - [[https://github.com/THUDM/ImageReward][ImageReward]]: [[https://arxiv.org/abs/2304.05977][Learning]] and Evaluating Human Preferences for Text-to-Image Generation
+- [[https://twitter.com/_akhaliq/status/1681870383408984064][FABRIC]]: Personalizing Diffusion Models with Iterative Feedback
+  - training-free approach, exploits the self-attention layer
 ** STEERING
 - [[THROUGH PROMPT]]
 - [[Diffusion Self-Guidance for Controllable Image Generation][Diffusion Self-Guidance]] [[https://dave.ml/selfguidance/][for Controllable]] Image Generation
@@ -130,6 +133,7 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - https://github.com/cccntu/efficient-prompt-to-prompt
   - imagic: editing photo with prompt: https://github.com/ShivamShrirao/diffusers/tree/main/examples/imagic
   - no fine tuning, using BLIP: https://github.com/pix2pixzero/pix2pix-zero <<pix2pix>>
+    - https://huggingface.co/docs/diffusers/api/pipelines/pix2pix_zero
 - plug-and-[[https://github.com/MichalGeyer/plug-and-play][play]] (like pix2pix but features extracted)
 - [[Self-Guidance]]
 - [[https://arxiv.org/abs/2211.07825][Direct Inversion]]: Optimization-Free Text-Driven Real Image Editing with Diffusion Models
@@ -160,6 +164,9 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - latent couple, multidiffusion, [[https://note.com/gcem156/n/nb3d516e376d7][attention couple]]
     - comfy ui like but masks: https://github.com/omerbt/MultiDiffusion
     - [[https://twitter.com/_akhaliq/status/1667033318590672896][SyncDiffusion]]: Coherent Montage via Synchronized Joint Diffusions (synchronizes them) ==best==
+  - [[https://twitter.com/_akhaliq/status/1681865088838270978][Text2Layer]]: [[https://huggingface.co/papers/2307.09781][Layered]] Image Generation using Latent Diffusion Model
+    - train an autoencoder to reconstruct layered images and train models on the latent representation
+    - generate background, foreground, layer mask, and the composed image simultaneously
 ** SPECIFIC CONCEPTS
 - [[https://dxli94.github.io/BLIP-Diffusion-website/][BLIP-Diffusion]]: Pre-trained Subject Representation for Controllable Text-to-Image Generation and Editing
   - learned in 40 steps vs Textual Inversion 3000
