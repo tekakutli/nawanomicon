@@ -29,7 +29,7 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
     - directly modifying the text prompts
       - better than ddim inversion
     - make SD animations more consistent.
-- [[https://huggingface.co/papers/2305.11147][UniControl]]: A Unified Diffusion Model for Controllable Visual Generation In the Wild
+- [[https://huggingface.co/papers/2305.11147][UniControl]]: [[https://www.reddit.com/r/StableDiffusion/comments/15851w6/code_for_unicontrol_has_been_released/][A Unified]] Diffusion Model for Controllable Visual Generation In the Wild
   - several controlnets in one, contextual understanding
 - In-[[https://github.com/Zhendong-Wang/Prompt-Diffusion][Context]] [[https://zhendong-wang.github.io/prompt-diffusion.github.io/][Learning]] Unlocked for Diffusion Models
   - image to hed, depth, segmentation, outline
@@ -43,7 +43,9 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
    - implicit segmentation maps can be extracted from cross-attention layers
  - [[https://twitter.com/_akhaliq/status/1674623306551508993][Generate Anything]] Anywhere in Any Scene <<layout aware>>
    - training guides to focus on object identity, personalized concept with localization controllability
+ - [[https://twitter.com/_akhaliq/status/1683340606217781248][BoxDiff]]: Text-to-Image Synthesis with Training-Free Box-Constrained Diffusion
 ** ONE IMAGE GUIDED
+- [[FINETUNNING-LESS]]
 - Imagic
 - pfg Prompt free generation: https://github.com/laksjdjf/pfg
   - old one: [[https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/6585][PaintByExample]]
@@ -73,6 +75,9 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
 - editing [[https://time-diffusion.github.io/TIME_paper.pdf][default]] of a prompt: https://github.com/bahjat-kawar/time-diffusion
 - [[https://github.com/SusungHong/Self-Attention-Guidance][Self-Attention Guidance]] (SAG): [[https://arxiv.org/pdf/2210.00939.pdf][SAG leverages]] [[https://github.com/ashen-sensored/sd_webui_SAG][intermediate attention]] maps of diffusion models at each iteration to capture essential information for the generative process and guide it accordingly
   - pretty much just reimplemented the attention function without changing much else,
+- [[https://twitter.com/_akhaliq/status/1683293200574988289][Diffusion Sampling]] with Momentum for Mitigating Divergence Artifacts
+  - incorporation of: Heavy Ball (HB) momentum = expand stability regions; Generalized HB (GHVB) = supression
+  - better low step sampling
 ** HUMAN FEEDBACK
 - Aligning Text-to-Image Models using Human Feedback https://arxiv.org/abs/2302.12192
   - [[https://tgxs002.github.io/align_sd_web/][Better Aligning]] Text-to-Image Models with Human Preference
@@ -202,6 +207,8 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
 - [[https://twitter.com/_akhaliq/status/1673544034193924103][DomainStudio]]: Fine-Tuning Diffusion Models for Domain-Driven Image Generation using Limited Data
   - keep the relative distances between adapted samples to achieve generation diversity
 - [[https://twitter.com/AbermanKfir/status/1679689404573679616][HyperDreamBooth]]: HyperNetworks for Fast Personalization of Text-to-Image Models
+- [[https://twitter.com/_akhaliq/status/1683294368940318720][Subject-Diffusion]]:Open Domain Personalized Text-to-Image Generation without Test-time Fine-tuning
+  - multi subject, single reference image
 **** THROUGH PROMPT
 - [[STEERING]]
 - [[https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion][magic prompt]]: amplifies-improves the prompt
@@ -304,3 +311,5 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
 - [[https://twitter.com/_akhaliq/status/1664073210487267335][Tree-Ring Watermarks]]: Fingerprints for Diffusion Images that are Invisible and Robust
   - patterns hiddens in fourier space
 - [[https://twitter.com/_akhaliq/status/1669536531298516993][Seeing the World]] through Your Eyes (getting image from reflection of the eyes)
+- [[https://twitter.com/_akhaliq/status/1683345535913308160][CopyRNeRF]]: Protecting the CopyRight of Neural Radiance Fields
+  - replacing the original color representation in NeRF with a watermarked color representation

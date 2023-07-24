@@ -15,12 +15,16 @@
 - [[https://twitter.com/cloneofsimo/status/1664365355266105344][NoPE]]: dont use positional encoding (PE) in Transformer decoders (GPTs)
 - [[https://twitter.com/xiaolonw/status/1677003542249484289][Elastic Decision]] Transformer
   - not optimal to use all history states as inputs for decision, instead shorter history
+- [[https://twitter.com/_akhaliq/status/1682248055637041152][Meta-Transformer]]: A Unified Framework for Multimodal Learning
+  - a unified data tokenizer, a modality-shared encoder, and task-specific heads
+** BEHAVIORAL TRANSFORMER
+:PROPERTIES:
+:ID:       d1967bb7-3782-4052-8725-c799c2630893
+:END:
 - [[https://twitter.com/_akhaliq/status/1682248458231480321][PASTA]]: Pretrained Action-State Transformer Agents
   - self supervised reinforcement learning
   - learning behavioral, sensor adaptation trajectories
   - no need to pretrain-tailor to specific downstream applications
-- [[https://twitter.com/_akhaliq/status/1682248055637041152][Meta-Transformer]]: A Unified Framework for Multimodal Learning
-  - a unified data tokenizer, a modality-shared encoder, and task-specific heads
 * ALTERNATIVE
 ** STATE SPACE
 :PROPERTIES:

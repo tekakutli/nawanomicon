@@ -27,6 +27,9 @@
 - [[https://twitter.com/bilawalsidhu/status/1638919452392583169][Instruct-NeRF2NeRF]]: [[https://arxiv.org/pdf/2303.12789.pdf][Editing]] [[https://instruct-nerf2nerf.github.io/][3D]] Scenes with Instructions <<Instruct-NeRF2NeRF>>
   - training to NeRF in an iterative fashion
   - integrated to [[https://github.com/nerfstudio-project/nerfstudio][nerfstudio]]
+- [[https://twitter.com/_akhaliq/status/1683344812446220288][FaceCLIPNeRF]]: Text-driven 3D Face Manipulation using Deformable Neural Radiance Fields
+  - train a latent code-conditional deformable NeRF, over a dynamic scene
+  - learns to represent a manipulated scene with spatially varying latent codes using clip
 * OUTPUT
 ** TEXTURE
 - [[https://www.anjiecheng.me/TUVF][TUVF]] : Learning Generalizable Texture UV Radiance Fields

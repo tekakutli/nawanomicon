@@ -10,6 +10,10 @@
   - [[https://huggingface.co/papers/2305.19472][PlaSma]]: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning
     - LLM, revision of a plan to cope with a counterfactual situation
 - [[https://twitter.com/_akhaliq/status/1676768086697885699][Building Cooperative]] Embodied Agents Modularly with Large Language Models
+- [[https://twitter.com/_akhaliq/status/1683312064935395328][STEVE-1]]: A Generative Model for Text-to-Behavior in Minecraft
+  - unCLIP is effective for creating instruction-following sequential decision-making agents
+  - pretrained models like VPT and MineCLIP, STEVE-1 costs just $60 to train
+- [[id:d1967bb7-3782-4052-8725-c799c2630893][BEHAVIORAL TRANSFORMER]]
 * ECONOMY
 - [[https://arxiv.org/pdf/2303.17564.pdf][BloombergGPT]]: A Large Language Model for Finance (economy)
 * SCENE
