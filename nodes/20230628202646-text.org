@@ -24,6 +24,7 @@
     - task of text generation decomposed into a series of copy-and-paste operations
     - text spans rather than vocabulary
     - learning = text compression algorithm ?
+    - Decoding the ACL Paper: Gzip and KNN Rival BERT in Text Classification
 * TRAIN TEXT MODEL
 - [[https://arxiv.org/abs/2304.05511][Training]] Large Language Models Efficiently with Sparsity and Dataflow
 - [[https://arxiv.org/pdf/2305.11206.pdf][LIMA]]: [[https://twitter.com/_akhaliq/status/1660458199504556034][Less]] Is More for Alignment
@@ -81,4 +82,5 @@
   - [[https://arxiv.org/pdf/2303.09618.pdf][HIVE]]: Harnessing Human Feedback for Instructional Visual Editing (reward model)
   - https://github.com/tloen/alpaca-lora
   - [[https://twitter.com/_akhaliq/status/1661177995049172992][QLoRA]]: Efficient Finetuning of Quantized LLMs, 24 hours 1 gpu 48g
+- [[https://twitter.com/lvwerra/status/1681701409677246471][tain all]] Llama-2 models on your own data
 - [[https://huggingface.co/papers/2305.17333][Fine-Tuning Language]] Models with Just Forward Passes, less ram

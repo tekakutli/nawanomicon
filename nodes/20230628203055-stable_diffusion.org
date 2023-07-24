@@ -78,8 +78,9 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - [[https://tgxs002.github.io/align_sd_web/][Better Aligning]] Text-to-Image Models with Human Preference
   - [[https://github.com/GanjinZero/RRHF][RRHF]]: Rank Responses to Align Language Models with Human Feedback without tears
   - [[https://github.com/THUDM/ImageReward][ImageReward]]: [[https://arxiv.org/abs/2304.05977][Learning]] and Evaluating Human Preferences for Text-to-Image Generation
-- [[https://twitter.com/_akhaliq/status/1681870383408984064][FABRIC]]: Personalizing Diffusion Models with Iterative Feedback
+- [[https://twitter.com/_akhaliq/status/1681870383408984064][FABRIC]]: [[https://twitter.com/dvruette/status/1681942402582425600][Personalizing]] Diffusion Models with Iterative Feedback
   - training-free approach, exploits the self-attention layer
+  - improve the results of any Stable Diffusion model
 ** STEERING
 - [[THROUGH PROMPT]]
 - [[Diffusion Self-Guidance for Controllable Image Generation][Diffusion Self-Guidance]] [[https://dave.ml/selfguidance/][for Controllable]] Image Generation
@@ -106,6 +107,8 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - can generate viable when stopped arbitrarily before completion
 - [[https://twitter.com/_akhaliq/status/1668076625924177921][BOOT]]: Data-free Distillation of Denoising Diffusion Models with Bootstrapping
   - use sd as teacher model and train faster one using it as bootstrap; 30 fps
+- Divide & Bind Your Attention for Improved Generative Semantic Nursing
+  - [[https://twitter.com/YumengLi_007/status/1682404804583104512][novel objective]] [[https://sites.google.com/view/divide-and-bind][functions]]: can handle complex prompts with proper attribute binding
 * SAMPLERS
 - fastest solver https://arxiv.org/abs/2301.12935
   - another accelerator: https://arxiv.org/abs/2301.11558
@@ -286,6 +289,9 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - unlitmited superresolution https://arxiv.org/pdf/2303.00354.pdf
 - [[https://twitter.com/_akhaliq/status/1674249594421608448][SVNR]]: Spatially-variant Noise Removal with Denoising Diffusion
   - real life noise fixing
+- [[https://github.com/WindVChen/INR-Harmonization][Dense]] [[https://github.com/WindVChen/INR-Harmonization][Pixel-to-Pixel]] Harmonization via Continuous Image Representation
+  - stretched images due to change in resolution fixed
+  - [[https://github.com/WindVChen/Diff-Harmonization][Zero-Shot Image]] Harmonization with Generative Model Prior
 ** DEPTH GENERATION
 - [[https://twitter.com/_akhaliq/status/1630747135909015552][depth map]] from diffusion, build 3d enviroment with it
   - [[https://github.com/wl-zhao/VPD][VPD]]: using diffusion for depth estimation, image segmentation (better) <<vpd>> comparable [[x-decoder]]

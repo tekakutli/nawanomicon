@@ -15,6 +15,12 @@
 - [[https://twitter.com/cloneofsimo/status/1664365355266105344][NoPE]]: dont use positional encoding (PE) in Transformer decoders (GPTs)
 - [[https://twitter.com/xiaolonw/status/1677003542249484289][Elastic Decision]] Transformer
   - not optimal to use all history states as inputs for decision, instead shorter history
+- [[https://twitter.com/_akhaliq/status/1682248458231480321][PASTA]]: Pretrained Action-State Transformer Agents
+  - self supervised reinforcement learning
+  - learning behavioral, sensor adaptation trajectories
+  - no need to pretrain-tailor to specific downstream applications
+- [[https://twitter.com/_akhaliq/status/1682248055637041152][Meta-Transformer]]: A Unified Framework for Multimodal Learning
+  - a unified data tokenizer, a modality-shared encoder, and task-specific heads
 * ALTERNATIVE
 ** STATE SPACE
 :PROPERTIES:
@@ -25,13 +31,14 @@
   - [[https://arxiv.org/pdf/2202.07765.pdf][Perceiver]] few latents instead of transformers
 * ABOUT ATTENTION
 - [[https://medium.com/@b.terryjack/deep-learning-the-transformer-9ae5e9c5a190][What]] is Q,V,K? multihead attention?
-- attention free:
-  - [[https://arxiv.org/pdf/2111.15588.pdf][SimpleTRON]]: Simple Transformer with O(N) Complexity (no transformer)
-    - vs [[https://arxiv.org/abs/2111.11418][Metaformer]] (poolformer, pureformer)
-    - maybe not the same: [[https://github.com/ThilinaRajapakse/simpletransformers][the github]]
 - SpectFormer: Frequency and Attention is what you need in a Vision Transformer
 - [[https://arxiv.org/pdf/1808.03867.pdf][Pervasive]] [[https://github.com/elbayadm/attn2d][Attention]]: 2D Convolutional Neural Networks for Sequence-to-Sequence Prediction
   - two-dimensional convolutions to jointly encode the source-target sequences (translation)
+- [[https://arxiv.org/abs/1901.03429][On the]] [[https://twitter.com/kfountou/status/1682936558532407296][Turing]] Completeness of Modern Neural Network Architectures; Attention is Turing-Complete
+** ATTENTION FREE
+- [[https://arxiv.org/pdf/2111.15588.pdf][SimpleTRON]]: Simple Transformer with O(N) Complexity (no transformer)
+  - vs [[https://arxiv.org/abs/2111.11418][Metaformer]] (poolformer, pureformer)
+  - maybe not the same: [[https://github.com/ThilinaRajapakse/simpletransformers][the github]]
 * TRANSFORMER VISION
 - parent: [[id:39d30d24-c374-4d0c-8037-b03ecbf983fa][computer_vision]]
 - DINO: self-suppervised Vision Transformers https://youtu.be/h3ij3F3cPIk

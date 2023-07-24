@@ -25,10 +25,11 @@
     - based on Tune a Video
   - [[https://yingqinghe.github.io/LVDM/][VideoCrafter]]: [[https://github.com/VideoCrafter/VideoCrafter][A Toolkit]] [[https://github.com/VideoCrafter/VideoCrafter][for Text-to-Video]] Generation and Editing: [[https://twitter.com/jfischoff/status/1643649328723144705/photo/1][deeper meaning]] (has loras and controlnet)
   - [[https://twitter.com/_akhaliq/status/1678610810644451328][AnimateDiff]]: [[https://www.reddit.com/r/StableDiffusion/comments/14wgv2p/animatediff_animate_your_personalized_texttoimage/][Animate]] Your Personalized Text-to-Image Diffusion Models without Specific Tuning
-    - based on tune-a-video
+    - based on tune-a-video, [[https://twitter.com/GuoywGuo/status/1679088174449184768][12gb ram]]
     - insert newish motion module into frozen(normal sd) text-to-image model ==best one, it's over==
-    - [[https://twitter.com/GuoywGuo/status/1679088174449184768][12gb ram]]
-- https://research.nvidia.com/labs/toronto-ai/VideoLDM/ hd, but still semantically deformed
+    - [[https://twitter.com/_akhaliq/status/1682206212203376642][TokenFlow]]: Consistent Diffusion Features for Consistent Video Editing
+      - consistency in edited video can be obtained by enforcing consistency in the diffusion feature space
+- [[https://research.nvidia.com/labs/toronto-ai/VideoLDM/][VideoLDM]]: hd, but still semantically deformed (nvidia)
 - VideoFusion: damo/text-to-video-[[https://modelscope.cn/models/damo/text-to-video-synthesis/files][synthesis]], [[https://www.modelscope.cn/models/damo/cv_diffusion_text-to-image-synthesis_tiny/summary][summary]] [[https://www.modelscope.cn/models/damo/cv_diffusion_text-to-image-synthesis_tiny/summary][tiny]], [[https://arxiv.org/pdf/2303.08320.pdf][paper]]
   - https://rentry.org/f34hy [[https://huggingface.co/damo-vilab/modelscope-damo-text-to-video-synthesis/commit/ac7fbae73c65a6bbde3814d0198e16bb8e886cef][license change commit]]
 - Latent-Shift: Latent Diffusion with Temporal Shift for Efficient Text-to-Video Generation
