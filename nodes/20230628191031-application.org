@@ -28,3 +28,8 @@
 - [[https://twitter.com/_akhaliq/status/1638380868526899202][Text2Room]]: [[https://lukashoel.github.io/text-to-room/][Extracting]] Textured 3D Meshes from 2D Text-to-Image Models (textures)
 ** HAIR
 - [[https://twitter.com/_akhaliq/status/1682429544416813070][Neural]] Haircut: Prior-Guided Strand-Based Hair Reconstruction, realism hair modeling, personalization
+*  UI
+** MODELLING WITH ONLY THE MOUSE
+- https://youtu.be/IXqj4HqNbPE
+- depending the size of the brush and the location, infers the intention
+  - and modifies the hyperparameters, not just one axis but whole arm-mechanisms

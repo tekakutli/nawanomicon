@@ -5,6 +5,8 @@
 #+filetags: :nawanomicon:
 - parent: [[id:5222388e-ab37-4404-8cc7-9b21299e34c2][application]]
 - [[https://huggingface.co/papers/2306.00148][SafeDiffuser]]: [[https://safediffuser.github.io/safediffuser/][Safe]] Planning with Diffusion Probabilistic Models
+- [[https://twitter.com/_akhaliq/status/1683681368818192386][A Real-World]] WebAgent with Planning, Long Context Understanding, and Program Synthesis
+  - LLM-driven agent to complete instruction tasks on real websites
 * BEHAVIOURAL
 - [[https://diffusion-planning.github.io/][Planning with]] [[https://arxiv.org/abs/2205.09991][Diffusion for]] [[https://twitter.com/neurosp1ke/status/1530525256871444480][Flexible Behavior]] Synthesis
   - [[https://huggingface.co/papers/2305.19472][PlaSma]]: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning

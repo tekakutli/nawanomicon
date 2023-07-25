@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       cf90b236-64c1-47a8-b30c-35454ef26d27
+:END:
+#+title: nawanomicon_help
+#+filetags: :nawanomicon:
+* FORMAT
+- I welcome ideas about how better to structure this thing
+** LINKING FORMAT(LESS)NESS
+- one of the flaws of my effort is that I keep bundling the linking to stuff within the same sentence, but this way I can elide them

@@ -20,3 +20,10 @@
     - “[[https://aclanthology.org/2023.findings-acl.426.pdf][Low-Resource]]” Text Classification: A Parameter-Free Classification Method with Compressors
 * CHEAPNESS
 - [[https://huggingface.co/papers/2307.03576][One Step of]] Gradient Descent is Provably the Optimal In-Context Learner with One Layer of Linear Self-Attention
+- [[https://twitter.com/_akhaliq/status/1683670100350742528][Optimized]] Network Architectures for Large Language Model Training with Billions of Parameters
+  - only small subgroups of GPUs require high-bandwidth any-to-any communication within them
+* SOFTWARE WISE
+- optimizer from 32 bits to 8 bits
+  - https://github.com/pyg-team/pytorch_geometric
+- faster matrix using approximations
+  - https://github.com/dblalock/bolt

@@ -308,8 +308,11 @@ real time [[https://www.reddit.com/r/StableDiffusion/comments/12qlg3b/who_needs_
   - [[https://www.reddit.com/r/StableDiffusion/comments/125dli7/using_stable_diffusion_eraser_to_replace_a/][Using stable diffusion]] eraser to replace a concept in one model with the same concept from another
   - [[https://arxiv.org/abs/2303.17591][Forget-Me-Not]]: [[https://github.com/SHI-Labs/Forget-Me-Not][Learning to]] Forget in Text-to-Image Diffusion Models
 - [[https://twitter.com/giannis_daras/status/1663710057400524800][Ambient]] Diffusion: train diffusion models given only *corrupted* images as input (copyrightless-ed)
-- [[https://twitter.com/_akhaliq/status/1664073210487267335][Tree-Ring Watermarks]]: Fingerprints for Diffusion Images that are Invisible and Robust
-  - patterns hiddens in fourier space
 - [[https://twitter.com/_akhaliq/status/1669536531298516993][Seeing the World]] through Your Eyes (getting image from reflection of the eyes)
+** FINGERPRINTING
 - [[https://twitter.com/_akhaliq/status/1683345535913308160][CopyRNeRF]]: Protecting the CopyRight of Neural Radiance Fields
   - replacing the original color representation in NeRF with a watermarked color representation
+- [[https://twitter.com/_akhaliq/status/1664073210487267335][Tree-Ring Watermarks]]: Fingerprints for Diffusion Images that are Invisible and Robust
+  - patterns hiddens in fourier space
+- [[https://twitter.com/_akhaliq/status/1683678703048613888][WOUAF]]:Weight Modulation for User Attribution and Fingerprinting in Text-to-Image Diffusion Models
+  - model fingerprinting that assigns responsibility for the generated images

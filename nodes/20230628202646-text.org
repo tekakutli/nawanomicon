@@ -3,6 +3,7 @@
 :END:
 #+title: text
 #+filetags: :nawanomicon:
+- [[https://github.com/emorynlp/elit][elit]]: provides NLPs for tokenization, tagging, recognition of languages
 - [[https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/][OpenSource]] [[https://twitter.com/rskuzma/status/1640721436179308545][Model]] but for new Hardware
 - translation prompt: https://boards.4channel.org/g/thread/92468569#p92470651
 - [[https://selfrefine.info/][Self-Refine]]: Iterative Refinement with Self-Feedback
