@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       82127d6a-b3bb-40bf-a912-51fa5134dacc
-:END:
-#+title: diffusion
-#+filetags: :nawanomicon:

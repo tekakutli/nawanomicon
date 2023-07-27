@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       e9be16f7-8032-4509-9aa9-7843836eacd9
-:END:
-#+title: domain
-#+filetags: :nawanomicon:
-- parent: [[id:5222388e-ab37-4404-8cc7-9b21299e34c2][application]]
